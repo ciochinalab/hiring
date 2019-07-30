@@ -1,21 +1,22 @@
 $(function () {
   // initialize the wechat popover
-  $(".wechat-link").popover({
+  $("#wechatImg").popover({
     trigger: "hover",
-    content: '<img src="img/icon.png">',
+    content: '<div id="qrcode"></div>',
     placement: "bottom",
     html: true
   });
 
+  $('#wechatImg').on('show.bs.popover', function () {
+    setTimeout(function () {
+      $('#qrcode').qrcode({
+        text: window.location.href,
+        width: 75,
+        height: 75
+      });
+    }, 0);
+  })
 
-  //window.location.href获取到URL
-  // qrcode.makeCode(window.location.href);
-  // ('#qrcode').qrcode({ width: 75, height: 75, text: window.location.href });
-  $('#qrcode').qrcode({
-    text: window.location.href,
-    width: 75,
-    height: 75
-  });
 
   // $.i18n.properties({
   //   name : 'i18n',
