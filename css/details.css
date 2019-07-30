@@ -1,0 +1,20 @@
+.container .row:first-child {
+  background-image: url("../img/jd-background.png");
+/*        height: 384px;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.position-name {
+  padding: 5.5rem 0;
+}
+
+.container .row:last-child {
+  background-color: #F4F4F4;
+}
+
+h1, h4{
+    color: white;
+    text-align: center;
+}
+
