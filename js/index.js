@@ -1,13 +1,13 @@
 $(function () {
   // initialize the wechat popover
-  $("#wechatImg").popover({
+  $("#wechat-link").popover({
     trigger: "hover",
     content: '<div id="qrcode"></div>',
     placement: "bottom",
     html: true
   });
 
-  $('#wechatImg').on('show.bs.popover', function () {
+  $('#wechat-link').on('show.bs.popover', function () {
     setTimeout(function () {
       $('#qrcode').qrcode({
         text: window.location.href,
@@ -36,6 +36,7 @@ $(function () {
     $('#Mycarousel').carousel('prev');
   })
 
+  $('#industryHire')
 
   // $.i18n.properties({
   //   name : 'i18n',
@@ -70,7 +71,7 @@ $(function () {
       let item = `
       <div class="col-sm-12 col-md-${cardWidth} col-lg-${cardWidth}">
         <div class="task-card">
-          <img src="img/icon.png" align="top" class="ibm-padding-bottom-1">
+          <img src="img/${team.icon}.png" align="top" class="ibm-padding-bottom-1">
           <p class="ibm-bold ibm-padding-bottom-1">${team.teamName}</p>
           <p class="ibm-light">${team.teamDetail}
         </p>
@@ -99,28 +100,16 @@ $(function () {
     $('#meetOurTeamInner').append(teamInner)
   }
 
-  generateTeamIndicator();
-  generateTeamInnerCard();
-
-  $(window).resize(function () {
-    if ((pageSize < 768 && $(window).width() >= 768) || pageSize >= 768 && $(window).width() < 768) {
-      pageSize = $(window).width();
-      $('#meetOurTeamInner').empty();;
-      $('#meetOurTeamIndicator').empty();;
-      generateTeamIndicator();
-      generateTeamInnerCard();
-    }
-  })
-
-
-  // initialize job opportunities
-  jobs.industry.forEach((job, index) => {
-    $('#industryHire').append(`
+  function generateJobOpp() {
+    if ($(window).width() >= 768) {
+      // initialize job opportunities
+      jobs.industry.forEach((job, index) => {
+        $('#industryHire').append(`
     <div class="job-card row">
-      <div class="jobCardImgDiv col-sm-2">
-        <img src="img/icon.png" class="industryHireImg"></img>
+      <div class="industryHireImg col-sm-0 col-md-2 col-lg-2">
+        <img src="img/Card-icon-${job.type}-Web.png" style="width:100%;height:100%"></img>
       </div>
-      <div class="col-sm-10">
+      <div class="col-sm-11 col-md-10 col-lg-10 job-card-content">
         <p class="cio-career-h2">${job.position}</p>
         <p>
             <span>${job.location}</span> |
@@ -134,6 +123,46 @@ $(function () {
       </div>
     </div>
     `);
-  });
+      });
+    } else {
+      // initialize job opportunities
+      jobs.industry.forEach((job, index) => {
+        $('#industryHire').append(`
+            <div class="job-card row">
+            <div class="industryHireImg">
+              <img src="img/Card-icon-${job.type}-Mobile.png" style="width:10px;height:100%"></img>
+            </div>
+            <div class="col-sm-11 job-card-content">
+              <p class="cio-career-h2">${job.position}</p>
+              <p>
+                  <span>${job.location}</span> |
+                  <span>${job.level}</span> |
+                  <span>${job.experience}</span>
+              </p>
+              <p class="ibm-padding-bottom-1">${job.description}</p>
+              <p>
+                  <a class="view-more" href="details.html?category=industry&index=${index}">View More -></a>
+              </p>
+            </div>
+          </div>
+        `);
+      });
+    }
+  }
 
+  generateTeamIndicator();
+  generateTeamInnerCard();
+  generateJobOpp()
+
+  $(window).resize(function () {
+    if ((pageSize < 768 && $(window).width() >= 768) || pageSize >= 768 && $(window).width() < 768) {
+      pageSize = $(window).width();
+      $('#meetOurTeamInner').empty();
+      $('#meetOurTeamIndicator').empty();
+      $('#industryHire').empty()
+      generateTeamIndicator();
+      generateTeamInnerCard();
+      generateJobOpp();
+    }
+  })
 });

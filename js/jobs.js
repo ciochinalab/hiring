@@ -4,6 +4,7 @@ const jobs = {
       "location": "BEIJING",
       "level": "BAND6",
       "experience": "1-2 YEARS",
+      "type" : "Developer",
       "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive and adept at clear communication",
       "responsibilities": [
         "Proficient in mathematical model algorithm, familiar with machine learning and natural language processing is preferred",
@@ -31,6 +32,7 @@ const jobs = {
       "location": "BEIJING",
       "level": "BAND7",
       "experience": "3-5 YEARS",
+      "type" : "Developer",
       "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, "
     },
     {
@@ -38,6 +40,7 @@ const jobs = {
       "location": "BEIJING",
       "level": "BAND6",
       "experience": "1-2 YEARS",
+      "type" : "Developer",
       "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive "
     },
     {
@@ -45,6 +48,7 @@ const jobs = {
       "location": "BEIJING",
       "level": "BAND8",
       "experience": "5 YEARS ABOVE",
+      "type" : "Manager",
       "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive and adept at clear communication"
     },
     {
@@ -52,6 +56,7 @@ const jobs = {
       "location": "BEIJING",
       "level": "BAND6",
       "experience": "1-2 YEARS",
+      "type" : "Developer",
       "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive and adept at clear communication"
     },
     {
@@ -59,6 +64,7 @@ const jobs = {
       "location": "BEIJING",
       "level": "BAND6",
       "experience": "1-3 YEARS",
+      "type" : "BA",
       "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive and adept at clear communication"
     }
   ],
@@ -72,26 +78,32 @@ const jobs = {
 
 const teams = [{
     "teamName": "DSW Commerce and Analytics",
+    "icon":"Icon-4",
     "teamDetail": "IBM Distributed Software and Cloud services commerce platform, as well as data integration and analytics systems."
   },
   {
     "teamName": "z/OS Software Commerce",
+    "icon":"Icon-5",
     "teamDetail": "IBM z/OS Software configuration, commerce, and fulfillment systems."
   },
   {
     "teamName": "Web Solution Enablement",
+    "icon":"Icon-5",
     "teamDetail": "A platform providing end-to-end experience to IBM sales and clients [Dalian]."
   },
   {
     "teamName": "Marketing Analytics & Reporting",
+    "icon":"Icon-6",
     "teamDetail": "IBM Distributed Software and Cloud services commerce platform, as well as data integration and analytics systems."
   },
   {
     "teamName": "Web Solution Enablement",
+    "icon":"Icon-4",
     "teamDetail": " A platform providing end-to-end experience to IBM sales and clients [Dalian]."
   },
   {
     "teamName": "Marketing Analytics & Reporting",
+    "icon":"Icon-5",
     "teamDetail": "IBM Distributed Software and Cloud services commerce platform, as well as data integration and analytics systems."
   }
 ]

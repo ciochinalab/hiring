@@ -39,6 +39,29 @@
   .cio-career-aglign-center{
     text-align:center;
   }
+
+  .cover-title {
+    background-image: url("../img/Banner-Web.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+
+  .job-opportunity .tab-content .job-card {
+    margin-top: 1rem;
+    background-color: #fff;
+    height: 320px;
+  }
+  .job-card-content{
+    padding:1.5rem;
+    max-height: 320px;
+  }
+  
+  .industryHireImg {
+    height: 100%;
+    width: 10px;
+    padding:0px !important;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -79,6 +102,31 @@
   .cio-career-padding-bottom-normal{
     padding-bottom: 2.5rem !important;
   }
+
+  .cover-title {
+    background-image: url("../img/Banner-Web.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+
+  .job-opportunity .tab-content .job-card {
+    margin-top: 1rem;
+    background-color: #fff;
+    height: 278px;
+  }
+  .job-card-content{
+    padding:1.5rem;
+    max-height: 278px;
+  }
+  
+  .industryHireImg {
+    height: 100%;
+    max-width: 100px;
+    width: 100%;
+    padding:0px !important;
+  }
+  
 }
 
 #main p {
@@ -89,20 +137,50 @@
   color: #8A3FFC;
 }
 
+.emailImg{
+  background-image: url("../img/icon-Email.png");
+  background-size: 36px 36px;
+}
 
+.emailImg:hover{
+  background-image: url("../img/icon-Email(hover).png");
+  background-size: 36px 36px;
+}
+.inImg{
+  background-image: url("../img/icon-Linkedin.png");
+  background-size: 36px 36px;
+}
+
+.inImg:hover{
+  background-image: url("../img/icon-Linkedin(hover).png");
+  background-size: 36px 36px;
+}
+.wechatImg{
+  background-image: url("../img/icon-WeChat.png");
+  background-size: 36px 36px;
+}
+
+.wechatImg:hover{
+  background-image: url("../img/icon-WeChat(hover).png");
+  background-size: 36px 36px;
+}
+.contactImg{
+  height:36px;
+  width:36px;
+  display: inline-block;
+}
+.normal-icon{
+  height:45px;
+  width:45px;
+}
 
 .ibm-background-color {
   background-color: #f4f4f4 !important;
 }
 
-.cover-title {
-  background-image: url("../img/banner.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  color: #fff;
+.becomePartOfCard {
+  height:480px
 }
-
-
 
 /* .cover-title p {
   font-size: 1.2rem;
@@ -164,8 +242,8 @@
 .meet-our-team {
   margin-left: -15px;
   margin-right: -15px;
-  background-image: url("../img/growing-background.png");
-  background-size: 100% 100%;
+  background-image: url("../img/Team-background-Web.png");
+  background-size: 100% auto;
   background-repeat: repeat;
 }
 
@@ -198,11 +276,7 @@
   text-align: center;
 }
 
-.job-opportunity .tab-content .job-card {
-  margin-top: 1rem;
-  padding: 1.5rem;
-  background-color: #fff;
-}
+
 
 .job-opportunity .tab-content .job-card p:last-child {
   margin-bottom: 0;
@@ -212,17 +286,9 @@
   float: right;
 }
 
-.industryHireImg {
-  height: 100%;
-  max-width: 100px;
-  width: 100%;
-}
 
-.jobCardImgDiv {
-  max-width: 100px !important;
-  width: 100%;
-  height: 100%
-}
+
+
 
 .industryHireTab .row {
   margin-left: 0px;
