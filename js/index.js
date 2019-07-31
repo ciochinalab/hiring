@@ -17,6 +17,25 @@ $(function () {
     }, 0);
   })
 
+  //add hammer in carousel
+  var meetOurTeamElement = document.getElementById('meetOurTeam');
+  var hm = new Hammer(meetOurTeamElement);
+  hm.on("swipeleft", function () {
+    $('#Mycarousel').carousel('next');
+  })
+  hm.on("swiperight", function () {
+    $('#Mycarousel').carousel('prev');
+  })
+
+  var becomePartOfElement = document.getElementById('becomePartOf');
+  var hm = new Hammer(becomePartOfElement);
+  hm.on("swipeleft", function () {
+    $('#Mycarousel').carousel('next');
+  })
+  hm.on("swiperight", function () {
+    $('#Mycarousel').carousel('prev');
+  })
+
 
   // $.i18n.properties({
   //   name : 'i18n',
@@ -51,8 +70,8 @@ $(function () {
       let item = `
       <div class="col-sm-12 col-md-${cardWidth} col-lg-${cardWidth}">
         <div class="task-card">
-          <img src="img/icon.png" align="top">
-          <p class="ibm-bold">${team.teamName}</p>
+          <img src="img/icon.png" align="top" class="ibm-padding-bottom-1">
+          <p class="ibm-bold ibm-padding-bottom-1">${team.teamName}</p>
           <p class="ibm-light">${team.teamDetail}
         </p>
         </div>
@@ -62,7 +81,7 @@ $(function () {
     var teamInner = ``;
     if ($(window).width() < 768) {
       indicatorNumArray.forEach((item, index) => {
-        teamInner = teamInner + `<div  ${index === 0? 'class="carousel-item active"' : 'class="carousel-item"'}>` + teamCard[index] + `</div>`
+        teamInner = teamInner + `<div  ${index === 0? 'class="carousel-item active cio-career-padding-bottom-normal"' : 'class="carousel-item cio-career-padding-bottom-normal"'}>` + teamCard[index] + `</div>`
       })
     } else {
       var currentCardIndex = 0;
@@ -71,14 +90,17 @@ $(function () {
         currentCardIndex = index1;
         var teamCardInner = ``;
         for (index1; index1 < currentCardIndex + 4 && index1 < teams.length; index1++) {
-          teamCardInner = teamCardInner + teamCard[currentCardIndex]
+          teamCardInner = teamCardInner + teamCard[index1]
         }
-        teamInner = teamInner + `<div  ${index === 0? 'class="carousel-item active"' : 'class="carousel-item"'}> <div class="row">` + teamCardInner +
+        teamInner = teamInner + `<div  ${index === 0? 'class="carousel-item active cio-career-padding-bottom-normal"' : 'class="carousel-item cio-career-padding-bottom-normal"'}> <div class="row">` + teamCardInner +
           `</div></div>`;
       })
     }
     $('#meetOurTeamInner').append(teamInner)
   }
+
+  generateTeamIndicator();
+  generateTeamInnerCard();
 
   $(window).resize(function () {
     if ((pageSize < 768 && $(window).width() >= 768) || pageSize >= 768 && $(window).width() < 768) {
@@ -90,9 +112,6 @@ $(function () {
     }
   })
 
-  generateTeamIndicator();
-  generateTeamInnerCard();
-
 
   // initialize job opportunities
   jobs.industry.forEach((job, index) => {
@@ -102,13 +121,13 @@ $(function () {
         <img src="img/icon.png" class="industryHireImg"></img>
       </div>
       <div class="col-sm-10">
-        <h2 class="ibm-h2 ibm-padding-bottom-1">${job.position}</h2>
+        <p class="cio-career-h2">${job.position}</p>
         <p>
             <span>${job.location}</span> |
             <span>${job.level}</span> |
             <span>${job.experience}</span>
         </p>
-        <p>${job.description}</p>
+        <p class="ibm-padding-bottom-1">${job.description}</p>
         <p>
             <a class="view-more" href="details.html?category=industry&index=${index}">View More -></a>
         </p>

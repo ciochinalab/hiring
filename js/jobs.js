@@ -31,14 +31,14 @@ const jobs = {
       "location": "BEIJING",
       "level": "BAND7",
       "experience": "3-5 YEARS",
-      "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive and adept at clear communication"
+      "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, "
     },
     {
       "position": "Automation Developer",
       "location": "BEIJING",
       "level": "BAND6",
       "experience": "1-2 YEARS",
-      "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive and adept at clear communication"
+      "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive "
     },
     {
       "position": "Project Manager",
