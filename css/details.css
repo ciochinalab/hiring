@@ -1,20 +1,37 @@
-.container .row:first-child {
-  background-image: url("../img/jd-background.png");
-/*        height: 384px;*/
+@media screen and (max-width: 768px) {
+  .cio-jd-padding-big{
+    padding-top:3.75rem !important;
+    padding-bottom: 3.75rem !important;
+  }
+
+  .position {
+    background-image: url("../img/JD-banner-Mobile.png");
+    background-size: auto 100%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    color: #F4F4F4;
+  }
 }
 
-.position-name {
-  padding: 5.5rem 0;
+@media screen and (min-width: 768px) {
+  .cio-jd-padding-big{
+    padding-top:7.5rem !important;
+    padding-bottom: 7.5rem !important;
+  }
+
+  .position {
+    background-image: url("../img/JD-banner-Web.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #F4F4F4;
+  }
 }
 
-.container .row:last-child {
-  background-color: #F4F4F4;
+
+.details {
+  background-color: #F4F4F4 !important;
 }
 
-h1, h4{
-    color: white;
+.position-name p{
     text-align: center;
 }
 

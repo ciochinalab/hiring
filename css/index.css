@@ -1,137 +1,3 @@
-@media screen and (max-width: 768px) {
-  
-  .cio-career-h1 {
-    font-size: 2.625rem;
-    line-height: 3.125rem;
-  }
-  
-  .cio-career-h2 {
-    font-size: 1.75rem;
-    line-height: 2.25rem;
-  }
-  
-  .cio-career-h3 {
-    font-size: 1.25rem;
-    line-height: 1.625rem;
-  }
-  
-  .cio-career-small {
-    font-size: 0.75rem
-  }
-
-  .cio-career-medium {
-    font-size: 2rem;
-    line-height: 2.5rem;
-  }
-
-  .cio-career-padding-big {
-    padding-top:3rem !important;
-    padding-bottom: 1.5rem !important;
-  }
-
-  .cio-career-padding-top-normal{
-    padding-top: 1rem !important;
-  }
-  .cio-career-padding-bottom-normal{
-    padding-bottom: 1rem !important;
-  }
-
-  .cio-career-aglign-center{
-    text-align:center;
-  }
-
-  .cover-title {
-    background-image: url("../img/Banner-Web.png");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    color: #fff;
-  }
-
-  .job-opportunity .tab-content .job-card {
-    margin-top: 1rem;
-    background-color: #fff;
-    height: 320px;
-  }
-  .job-card-content{
-    padding:1.5rem;
-    max-height: 320px;
-  }
-  
-  .industryHireImg {
-    height: 100%;
-    width: 10px;
-    padding:0px !important;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  
-  .cio-career-h1 {
-    font-size: 4.75rem;
-    line-height: 5.375rem;
-  }
-  
-  .cio-career-h2 {
-    font-size: 2rem;
-    line-height: 2.5rem;
-  }
-  
-  .cio-career-h3 {
-    font-size: 1.5rem;
-    line-height: 1.875rem;
-  }
-  
-  .cio-career-small {
-    font-size: 0.875rem
-  }
-
-  .cio-career-medium {
-    font-size: 3.75rem;
-    line-height: 4.375rem;
-  }
-
-  .cio-career-padding-big {
-    padding-top:5rem !important;
-    padding-bottom: 3.25rem !important;
-  }
-
-  .cio-career-padding-top-normal{
-    padding-top: 2.5rem !important;
-  }
-
-  .cio-career-padding-bottom-normal{
-    padding-bottom: 2.5rem !important;
-  }
-
-  .cover-title {
-    background-image: url("../img/Banner-Web.png");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    color: #fff;
-  }
-
-  .job-opportunity .tab-content .job-card {
-    margin-top: 1rem;
-    background-color: #fff;
-    height: 278px;
-  }
-  .job-card-content{
-    padding:1.5rem;
-    max-height: 278px;
-  }
-  
-  .industryHireImg {
-    height: 100%;
-    max-width: 100px;
-    width: 100%;
-    padding:0px !important;
-  }
-  
-}
-
-#main p {
-  padding-bottom: 0px
-}
 
 .careerPurple {
   color: #8A3FFC;
@@ -178,9 +44,6 @@
   background-color: #f4f4f4 !important;
 }
 
-.becomePartOfCard {
-  height:480px
-}
 
 /* .cover-title p {
   font-size: 1.2rem;
@@ -280,10 +143,6 @@
 
 .job-opportunity .tab-content .job-card p:last-child {
   margin-bottom: 0;
-}
-
-.job-opportunity .tab-content .job-card p:last-child .category-icon {
-  float: right;
 }
 
 

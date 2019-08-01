@@ -17,6 +17,21 @@ $(function () {
     }, 0);
   })
 
+  $('#opp-nav-tab a').click(function (e) {
+    var tabNeedToShow = ($(this)[0].id).slice(4);
+    history.pushState({ title: tabNeedToShow }, "", 'index.html?tab='+ tabNeedToShow);
+  })
+
+  var tabContent = ["industryHire","campusHire","internship"]
+   // listen popstate event
+   window.addEventListener("popstate", function(e) {
+    var tabId=GetParamFromUrl('tab');
+    if(tabContent.indexOf(tabId)){
+      $('#tab-'+tabId).tab('show');
+    }
+   }, false);
+
+
   //add hammer in carousel
   var meetOurTeamElement = document.getElementById('meetOurTeam');
   var hm = new Hammer(meetOurTeamElement);
@@ -100,6 +115,17 @@ $(function () {
     $('#meetOurTeamInner').append(teamInner)
   }
 
+  function GetParamFromUrl(name) {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regexS = "[\/|\?|\&]" + name + "=([^&#]*)";
+    var regex = new RegExp(regexS, "g");
+    var results = regex.exec(window.location.href);
+    if (results === null) {
+      return "";
+    }
+    return results[1];
+  }
+
   function generateJobOpp() {
     if ($(window).width() >= 768) {
       // initialize job opportunities
@@ -129,22 +155,22 @@ $(function () {
       jobs.industry.forEach((job, index) => {
         $('#industryHire').append(`
             <div class="job-card row">
-            <div class="industryHireImg">
-              <img src="img/Card-icon-${job.type}-Mobile.png" style="width:10px;height:100%"></img>
-            </div>
-            <div class="col-sm-11 job-card-content">
-              <p class="cio-career-h2">${job.position}</p>
-              <p>
+              <div class="industryHireImg col-sm-1">
+               <img src="img/Card-icon-${job.type}-Mobile.png" style="max-width:10px;height:100%"></img>
+              </div>
+              <div class="col-sm-11 job-card-content">
+               <p class="cio-career-h2">${job.position}</p>
+                <p>
                   <span>${job.location}</span> |
                   <span>${job.level}</span> |
                   <span>${job.experience}</span>
-              </p>
-              <p class="ibm-padding-bottom-1">${job.description}</p>
-              <p>
+                </p>
+                <p class="ibm-padding-bottom-1">${job.description}</p>
+                <p>
                   <a class="view-more" href="details.html?category=industry&index=${index}">View More -></a>
-              </p>
+                </p>
+              </div>
             </div>
-          </div>
         `);
       });
     }
@@ -165,4 +191,6 @@ $(function () {
       generateJobOpp();
     }
   })
+
+
 });
