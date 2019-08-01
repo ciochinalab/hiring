@@ -1,4 +1,39 @@
+@media screen and (max-width: 768px) {
+  #carouselBecomePartOf .carousel-indicators {
+    position: absolute;
+    right: auto !important;
+    bottom: 0;
+    left: 31px !important;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    list-style: none;
+}
+}
 
+@media screen and (min-width: 768px) {
+  #carouselBecomePartOf .carousel-indicators {
+    position: absolute;
+    right: auto !important;
+    bottom: 0;
+    left: calc(7rem + 50%);
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    list-style: none;
+}
+  
+}
 .careerPurple {
   color: #8A3FFC;
 }
@@ -159,4 +194,15 @@
   float: right;
   width: 100%;
   margin-left: -100px;
+}
+
+
+.test{
+  display: -webkit-box !important;
+  overflow: hidden !important;
+  white-space: normal !important;
+  text-overflow: ellipsis !important;
+  word-wrap: break-word !important;
+  -webkit-line-clamp: 1 !important;
+  -webkit-box-orient: vertical !important;
 }
