@@ -23,13 +23,12 @@ $(function () {
   })
 
   var tabContent = ["industryHire","campusHire","internship"]
-   // listen popstate event
-   window.addEventListener("popstate", function(e) {
+  if(GetParamFromUrl('tab')){
     var tabId=GetParamFromUrl('tab');
     if(tabContent.indexOf(tabId)){
       $('#tab-'+tabId).tab('show');
     }
-   }, false);
+  }
 
 
   //add hammer in carousel
