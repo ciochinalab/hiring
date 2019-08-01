@@ -50,11 +50,11 @@
     .job-opportunity .tab-content .job-card {
       margin-top: 1rem;
       background-color: #fff;
-      height: 500px;
+      height: 400px;
     }
     .job-card-content{
       padding:1.5rem;
-      max-height: 500px;
+      max-height: 400px;
     }
     
     .industryHireImg {
@@ -144,6 +144,7 @@
     .industryHireImg {
       height: 100%;
       width: 100%;
+      max-width: 100px;
       padding:0px !important;
     }
   
