@@ -1,37 +1,49 @@
 @media screen and (max-width: 768px) {
-  .cio-jd-padding-big{
-    padding-top:3.75rem !important;
+  .cio-jd-padding-big {
+    padding-top: 3.75rem !important;
     padding-bottom: 3.75rem !important;
   }
 
   .position {
     background-image: url("../img/JD-banner-Mobile.png");
-    background-size: auto 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     color: #F4F4F4;
+  }
+
+  .job-details {
+    padding: 5rem 1rem;
+  }
+
+  .detail-title-pad {
+    padding-top: 5rem;
+    padding-bottom: 1rem !important;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .cio-jd-padding-big{
-    padding-top:7.5rem !important;
+  .cio-jd-padding-big {
+    padding-top: 7.5rem !important;
     padding-bottom: 7.5rem !important;
   }
 
   .position {
     background-image: url("../img/JD-banner-Web.png");
-    background-size: auto 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     color: #F4F4F4;
   }
+
+  .job-details {
+    padding: 4rem 20.5rem;
+  }
+
+  .detail-title-pad {
+    padding-top: 4rem;
+    padding-bottom: 1.5rem !important;
+  }
 }
 
-
-.details {
-  background-color: #F4F4F4 !important;
+.job-details {
+  background-color: #f4f4f4 !important;
 }
-
-.position-name p{
-    text-align: center;
-}
-

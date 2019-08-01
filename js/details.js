@@ -1,29 +1,27 @@
 $(function() {
   const job = jobs[getQueryString("category")][getQueryString("index")];
   $(".position-name").append(`
-        <p class="cio-career-h1">${job.position}</p>
-        <p class="cio-career-h3">
+        <p class="cio-career-h1 text-center">${job.position}</p>
+        <p class="cio-career-h3 text-center">
           <span>${job.location}</span> |
           <span>${job.level}</span> |
           <span>${job.experience}</span>
         </p>
       `);
   $(".job-details").append(`
-      <p class="cio-career-h2">${job.description}</p>
-      <h5>Role and Responsibility:</h5>
-      <ol>
-      ${job.responsibilities.map(responsibility => `
-        <li>${responsibility}</li>
+      <p>${job.description}</p>
+      <p class="cio-career-h2 detail-title-pad">Responsibilities:</p>
+      ${job.responsibilities.map((responsibility,index) => `
+        <p>${index+1}. ${responsibility}</p>
       `).join('')}
-      </ol>
-      <h5>Job Requirements:</h5>
-      <ul>
-      ${job.requirements.map(requirement => `
-        <li>${requirement}</li>
+      <p class="cio-career-h2 detail-title-pad">Requirements:</p>
+      ${job.requirements.map((requirement,index) => `
+        <p>${index+1}. ${requirement}</p>
       `).join('')}
-      </ul>
-      <h5>Job Requirements:</h5>
-      <p>${job.application}</p>
+      <p class="cio-career-h2 detail-title-pad">How to Apply:</p>
+      ${job.applications.map((application,index) => `
+        <p>${application}</p>
+      `).join('')}
     `);
 });
 
