@@ -1,4 +1,5 @@
 $(function () {
+  var tabNeedToShow= 'industryHire';
   // initialize the wechat popover
   $("#wechat-link").popover({
     trigger: "hover",
@@ -7,21 +8,23 @@ $(function () {
     html: true
   });
 
+  $('#opp-nav-tab a').click(function (e) {
+    tabNeedToShow = ($(this)[0].id).slice(4);
+    // history.pushState({
+    //   title: tabNeedToShow
+    // }, "", 'index.html?tab=' + tabNeedToShow);
+  })
+
+
   $('#wechat-link').on('show.bs.popover', function () {
+    var currentHref = window.location.origin + window.location.pathname +"?tab=" +tabNeedToShow
     setTimeout(function () {
       $('#qrcode').qrcode({
-        text: window.location.href,
+        text: currentHref,
         width: 75,
         height: 75
       });
     }, 0);
-  })
-
-  $('#opp-nav-tab a').click(function (e) {
-    var tabNeedToShow = ($(this)[0].id).slice(4);
-    history.pushState({
-      title: tabNeedToShow
-    }, "", 'index.html?tab=' + tabNeedToShow);
   })
 
   var tabContent = ["industryHire", "campusHire", "internship"]
