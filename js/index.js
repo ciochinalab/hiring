@@ -154,12 +154,12 @@ $(function () {
       // initialize job opportunities
       jobs.industry.forEach((job, index) => {
         $('#industryHire').append(`
-            <div class="job-card row">
-              <div class="industryHireImg col-sm-1">
-               <img src="img/Card-icon-${job.type}-Mobile.png" style="max-width:10px;height:100%"></img>
+            <div class="job-card">
+              <div class="industryHireImg industryHireLeft">
+               <img src="img/Card-icon-${job.type}-Mobile.png" style="height:100%">
               </div>
-              <div class="col-sm-11 job-card-content">
-               <p class="cio-career-h2">${job.position}</p>
+              <div class="job-card-content industryHireRight">
+              <p class="cio-career-h2">${job.position}</p>
                 <p>
                   <span>${job.location}</span> |
                   <span>${job.level}</span> |

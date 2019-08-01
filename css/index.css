@@ -154,3 +154,14 @@
   margin-right: 0px;
 
 }
+
+.industryHireLeft{
+  float: left; 
+  width: 10px;
+  position: relative;
+}
+.industryHireRight{
+  float: right;
+  width: 100%;
+  margin-left: -100px;
+}
