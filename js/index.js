@@ -84,7 +84,7 @@ $(function () {
     teams.forEach((team, index) => {
       let item = `
       <div class="col-sm-12 col-md-${cardWidth} col-lg-${cardWidth}">
-        <div class="task-card">
+        <div class="task-card" style="overflow:hidden">
           <img src="img/${team.icon}.png" align="top" class="ibm-padding-bottom-1">
           <p class="ibm-bold ibm-padding-bottom-1">${team.teamName}</p>
           <p class="ibm-light">${team.teamDetail}
