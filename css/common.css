@@ -64,7 +64,11 @@
     }
   
     .becomePartOfCard {
-      height:18rem
+      height:18rem;
+    }
+    .becomePartOfCardPad{
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
   
     .cio-career-padding-top-p{
@@ -73,10 +77,6 @@
   
     .cio-career-padding-top-h3{
       padding-top: 2rem
-    }
-  
-    .displaySm{
-      display: none;
     }
   
     .paddingContent{
@@ -169,7 +169,12 @@
     }
   
     .becomePartOfCard {
-      height:30rem
+      height:30rem;
+    }
+
+    .becomePartOfCardPad{
+      padding-left: 7rem;
+      padding-right: 8.5rem;
     }
   
     .cio-career-padding-top-p{
