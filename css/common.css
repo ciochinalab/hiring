@@ -83,6 +83,10 @@
       padding-left: 1rem;
       padding-right: 1rem;
     }
+
+    .becomePartOfCardImg{
+      width: 100% !important;
+    }
   }
   
   @media screen and (min-width: 768px) {
@@ -158,6 +162,10 @@
     
     .cio-career-padding-top-h3{
       padding-top: 4rem
+    }
+
+    .becomePartOfCardImg{
+      height: 100% !important;
     }
   }
 
