@@ -154,17 +154,17 @@
     .job-opportunity .tab-content .job-card {
       margin-top: 1rem;
       background-color: #fff;
-      height: 278px;
+      height: 222px;
     }
     .job-card-content{
       padding:1.5rem;
-      max-height: 278px;
+      max-height: 222px;
     }
     
     .industryHireImg {
       height: 100%;
       width: 100%;
-      max-width: 100px;
+      max-width: 80px;
       padding:0px !important;
     }
   
@@ -183,7 +183,7 @@
     .becomePartOfCardImg{
       height: 100% !important;
     }
-    
+
     .carousel-indicators {
       position: absolute;
       right: 0;
@@ -202,4 +202,8 @@
 
   #main p {
     padding-bottom: 0px
+  }
+
+  .fontWeight{
+    font-weight: 300;
   }
