@@ -177,6 +177,9 @@
   margin-right: 0px !important;
   margin-left: 0px !important;
 }
+.xs-pad{
+  padding-bottom: 8px !important;
+}
 /* .cover-title p {
   font-size: 1.2rem;
 }

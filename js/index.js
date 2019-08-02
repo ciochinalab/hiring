@@ -152,8 +152,8 @@ $(function () {
         </div>
         <div class="col-sm-11 col-md-10 col-lg-10" style="overflow:hidden;position:relative">
         <div class="job-card-content">
-          <p class="cio-career-h2">${job.position}</p>
-          <p>
+          <p class="cio-career-h2 xs-pad">${job.position}</p>
+          <p class="xs-pad">
               <span>${job.location}</span> |
               <span>${job.level}</span> |
               <span>${job.experience}</span>
