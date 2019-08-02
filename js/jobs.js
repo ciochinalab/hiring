@@ -1,10 +1,11 @@
 const jobs = {
-  "industryHire": [{
+  "industryHire": [
+      {
       "position": "DevOps Engineer",
       "location": "BEIJING",
       "level": "BAND6-7",
       "experience": "1-3 YEARS",
-      "type": "Engineer",
+      "type": "Developer",
       "description": "IBM CIO DSW Commerce tribe aims to provide IBM sales, partners and customers great commerce experience of quotation, ordering and self services, to drive IBM software and XaaS revenue increase. Cloud Foundation squad provides and maintains the Cloud foundation for the whole set of DSW Commerce applications, and endeavors to migrate all web applications to IBM Cloud with modernized architecture like containerization, microservice and service mesh, cloud native etc . Cloud Foundation squad also supports the operations of DSW Commerce on IBM Cloud to guarantee stable and reliable services for IBM revenues with DSW Commerce applications.",
       "responsibilities": [
         "Cloud Infrastructure maintenance, monitoring and management including network, load balancer, storage, Kubernetes etc.",
@@ -23,88 +24,158 @@ const jobs = {
       ],
       "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
     },
-                   {
-      "position": "Full Stack Developer",
-      "location": "BEIJING",
-      "level": "BAND6",
-      "experience": "1-2 YEARS",
-      "type": "Developer",
-      "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive and adept at clear communication",
-      "responsibilities": [
-        "Proficient in mathematical model algorithm, familiar with machine learning and natural language processing is preferred",
-        "Proficient in Python/R, Hadoop platform development experience is preferred",
-        "Familiar with banking business is preferred",
-        "Able to accept business trips",
-        "Doctor degree in mathematics/statistics or related majors",
-        "Fluent in English or Japanese is a plus"
-      ],
-      "requirements": [
-        "3 to 6 years of relevant industry and software development experience.",
-        "Should have Full stack development experience and Microservices Architecture.",
-        "Experience and deep skills in system level language like Core Java, Backend language like Node.js and Framework based language like JavaScript with Angular or React.",
-        "Experience in Web Development like HTML/CSS and REST API development experience (APIs like REST / RESTful APIs).",
-        "Experience in any Databases like SQL / NoSQL."
-      ],
-      "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
-    },
     {
-      "position": "Software Engineer Developer",
+      "position": "Web Application Tester",
       "location": "BEIJING",
-      "level": "BAND7",
-      "experience": "3-5 YEARS",
-      "type": "Developer",
-      "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, ",
-      "responsibilities": [
-        "Proficient in mathematical model algorithm, familiar with machine learning and natural language processing is preferred",
-        "Proficient in Python/R, Hadoop platform development experience is preferred",
-        "Familiar with banking business is preferred",
-        "Able to accept business trips",
-        "Doctor degree in mathematics/statistics or related majors",
-        "Fluent in English or Japanese is a plus"
-      ],
-      "requirements": [
-        "5+ years of working experience as web developer.",
-        "Fluent in verbal & written communication skills in English. Strong proficiency with JavaScript.",
-        "Hands-on experience with Node.js, Angular, React and Express.js.",
-        "Experience in Angular 1.5, 2.0 and later version.",
-        "Strong proficiency with Java/J2EE.",
-        "Understanding the nature of asynchronous programming.",
-        "Good understanding of server-side CSS preprocessors (Less or SASS, etc.) Good understanding of front-end technologies, such as HTML5, and CSS3.",
-        "Experience with JavaScript Test Driven Development.",
-        "Proficient understanding of Git.",
-        "Good experience with designing Representational State Transfer (REST) web services.",
-        "Good understanding of Model-View-Controller (MVC) design pattern.",
-        "Familiar with Micro-Services based design and development.",
-        "Familiar with both Structured Query Language (SQL) and NoSQL database technologies."
-      ],
-      "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
-    },
-    {
-      "position": "Automation Developer",
-      "location": "BEIJING",
-      "level": "BAND6",
+      "level": "BAND6-7",
       "experience": "1-2 YEARS",
       "type": "Developer",
       "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive ",
       "responsibilities": [
-        "Undergrad in Computer Science, Computer Engineering or Information Technology.",
-        "Passion for software engineering, innovative and possess excellent written and verbal communication skills.",
-        "Basic experience in JavaScript, Python, C#, Java ,ASP.NET, SQL Database.",
-        "Added advantage: Preferably some experience with TypeScript, HTML5, Angular, ASP.Net with C# and SQL Server.",
-        "Problem solving skills and strong analytical skills.",
-        "Ability to multitask.",
-        "Ability to work in a dynamic and team oriented environment.",
+        "Clarify and understand business requirements.",
+        "Build and implement automation test framework for web application.",
+        "Design, implement and maintain automated test case scripts.",
+        "Design test scenario, develop test cases, and execute.",
+        "Analyze test result, report problem, verify fixes, create test report.",
+        "Communicate and collaborate with development team and business team."
       ],
       "requirements": [
-        "Willing to learn and try new technologies, aiming to design elegant system architecture.",
-        "Master in popular web development frameworks and tools.",
-        "Master in cloud native application development, rich experience in on-premise application migration to cloud.",
-        "Master in micro-services architecture and rich experience in building micro-services applications.",
-        "Master in DevOps，rich experience in building CI/CD pipeline and monitoring systems.",
-        "Rich experience in Domain Drive Design (DDD), design patterns, refactoring, and testing.",
-        "Solid knowledge on both relational and non relational Databases such as MySQL, DB2, Oracle, Mango DB, etc (at least one).",
-        "Strong interest in technical profession, always keeping eyes on latest technologies.",
-        "Understanding and acting aligned with agile engineering culture, wiling to take challenges, and able to work under high pressure."
+        "Professional experience in Web application/GUI testing design and execution, including functional test, system test, accessibility test, performance test, etc.",
+        "Strong knowledge of automation test framework.",
+        "Professional experience on defect management.",
+        "Experienced on at least one kind of script programming language, Ruby/JavaScript/Python.",
+        "Experienced on test environment setup, web application build and deployment.",
+        "Good knowledge of agile development life cycle.",
+        "Knowledge of Automation Testing tool, e.g. Selenium.",
+        "Knowledge for HTML, CSS, XML, Web Services.",
+        "Good documentation skill is a plus.",
+        "Globalization team working experience is a plus.",
+        "Having passion for software testing, interested in web applications/web services testing.",
+        "Good teamwork and communication skill.",
+        "Good written/spoken communication skills in English and Mandarin",
+        "Self-motivated.",
+        "Quick learner."
+      ],
+      "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
+    },
+    {
+      "position": "Cognos BI Developer",
+      "location": "BEIJING",
+      "level": "BAND6-8",
+      "experience": "1-5 YEARS",
+      "type": "Developer",
+      "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive ",
+      "responsibilities": [
+        "Responsible for the design, development, implementation and support of mission-critical enterprise Business Intelligence (BI) dashboards, reports and other analytic tools. ",
+        "Work with cross-functional teams, you will participate to gather and document reporting requirements to meet business needs.",
+        "use your skills and experience as a Cognos BI Developer to design, develop, test and implement reports and dashboards that utilize the underlying data stores / data warehouses / data marts." 
+      ],
+      "requirements": [
+        "•  At lease 2+ year experience developing and implementing Cognos reports and dashboards.",
+        "•  Strong knowledge of logical and physical data modeling concepts. ",
+        "•  Hands on experience of Report Studio, Workspace Advanced, Query Studio, Analysis Studio, and other related Cognos reports development tools. ",
+        "•  Strong background in SQL with some knowledge of data modeling best practices using Cognos Modeling tools, like Framework, Transformer.",
+        "•  Strong skill of XML, Javascript, and front-end development.",
+        "•  Experience of tuning related to reporting queries required.",
+        "•  Understand of data integration issues (validation and cleaning), familiarity with complex data structures.",
+        "Strong communication skill.",
+        "Good communication & documentation skills in English.",
+        "Good teamwork spirit.",
+        "Open minded and Self-motivated.",
+        "Quick learner.",
+        "Strong sense of ownership and high accountability.",
+        "Bachelor or master’s in computer science or related disciplines."
+      ],
+      "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
+    },
+    {
+      "position": "Data Engineer/BigData Engineer",
+      "location": "BEIJING",
+      "level": "BAND6-8",
+      "experience": "1-2 YEARS",
+      "type": "Developer",
+      "description": "We are participating in the data related projects to support the business transformation and information delivery of IBM, focusing on back-end data integration (ETL), as well as Interface Integration & Entitlement Intelligence solutions. In this team, you will have many opportunities to apply extensive BI/DW related technologies to projects, like OLTP (SAP, WAS), ETL (DB2/BLU, ESB/MQ, IIS/DataStage, Big Data), OLAP (Cognos), Data Mining (SPSS, R) etc. Besides that, you will be able to learn more about Mobile development, DevOps in projects as we are on the journey of DevOps and enabling end users to access our solutions on Mobile. You will also have the opportunity to work on IBM Data Lake Big Data projects and streaming processing projects.",
+      "responsibilities": [
+        "Participate in the design and implementation phases for data projects to help translate the high level business requirements into the concrete technical implementations.",
+        "Provide the timely support for production issues troubleshooting.",
+        "participate in our transformation to DevOps, for example: automated deployment, automated testing, continuous monitoring, etc."
+      ],
+      "requirements": [
+        "Strong skill of Database (DB2, Oracle) and corresponding ETL project experiences.",
+        "Strong skill of Unix/Linux Knowledge and SHELL script programming.",
+        "Experienced in IBM ETL product (InfoSphere DataStage/QualityStage) is a strong plus.",
+        "Good knowledge of data integration, ODS, Data Warehouse and Big Data technologies, e.g. Spark, Flink, Hive, HBase, etc.",
+        "Good knowledge of business requirement analysis and technical solution architecture design.",
+        "Strong analytical and troubleshooting skills.",
+        "Good knowledge of Java, J2EE, XML, Web Services, etc.",
+        "Knowledge of Agile methodology and Agile experience is a plus.",
+        "Knowledge of DevOps and related tooling (UCD, CHEF, Ansible, etc) is a plus.",
+        "Strong communication skill.",
+        "Good communication & documentation skills in English.",
+        "Good teamwork spirit.",
+        "Open minded and Self-motivated.",
+        "Quick learner.",
+        "Strong sense of ownership and high accountability.",
+        "Bachelor or master’s in computer science or related disciplines."
+      ],
+      "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
+    },
+    {
+      "position": "DB2 DBA (Database Administrator)",
+      "location": "BEIJING",
+      "level": "BAND6-8",
+      "experience": "1-2 YEARS",
+      "type": "Developer",
+      "description": "In this team, you will have great opportunities to work with senior worldwide Data Integration professionals and plenty of chances to learn leading edge Data Integration technologies. Most importantly, you will have the valuable opportunities to study how IBM runs its enterprise transformation from business perspective.",
+      "responsibilities": [
+       "Initialize, plan and maintain database platform/projects (DB2, AIX, Linux).",
+       "Be responsible to deliver systems on time and quality.",
+       "Ensure the smooth communication among the project members, interact with various teams to make sure the DB system is running with high availability and performance.",
+       "Provide support to other initiatives as and when required."
+      ],
+      "requirements": [
+       "Skills Required  -  DB2, AIX UNIX, Linux, Shell, SQL, SQL PL"
+       "Strong skill of Database (DB2, Oracle) and corresponding project experiences, 2+ years of experience in Database maintenance, among which 1+ years on DB2 Enterprise edition (8.2 and newer version)"
+       "Strong skill of Unix/Linux Knowledge and SHELL script programming, At least 1 years ’ experience in AIX UNIX (Administrator, support, programming)"
+       "Strong analytical and troubleshooting skills",
+       "Working experience with Datastage/IBM IIS on Linux/Unix platform.",
+       "Experience in Data Modeling / Database Design.",
+       "Working Experience about project life cycle management, Strong knowledge of project management",
+       "Be familiar with IBM change request / problem solving  processes and has a deep understanding for the whole methods.",
+       "Deep knowledge and rich experiences in Agile, DevOps methodology and practices",
+       "Strong skills for DevOps tooling chains and ecosystems, rich experiences in at least 2 of these popular DevOps tools: Jenkins, GIT/SCM, RTC/JIRA, Ansible/CHEF/UCD, Selenium etc."
+      ],
+      "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
+    },
+    {
+      "position": "Java Developer",
+      "location": "BEIJING",
+      "level": "BAND6-8",
+      "experience": "1-5 YEARS",
+      "type": "Developer",
+      "description": "We are participating in the data related projects to support the business transformation and information delivery of IBM, focusing on back-end data integration (ETL), as well as Interface Integration & Entitlement Intelligence solutions. In this team, you will have many opportunities to apply extensive BI/DW related technologies to projects, like OLTP (SAP, WAS), ETL (DB2/BLU, ESB/MQ, IIS/DataStage, Big Data), OLAP (Cognos), Data Mining (SPSS, R), Cloud, BigData development etc. Besides that, you will be able to learn more about Mobile development, DevOps in projects as we are on the journey of DevOps and enabling end users to access our solutions on Mobile. You will also have the opportunity to work on IBM Data Lake Big Data projects and streaming processing projects.",
+      "responsibilities": [
+        "Participate in the design and implementation phases for data projects to help translate the high-level business requirements into the concrete technical implementations.",
+        "Provide the timely support for production issues troubleshooting.",
+        "Participate in our transformation to DevOps, for example: automated deployment, automated testing, continuous monitoring, etc."
+      ],
+      "requirements": [
+        "Solid knowledge of Java technology, familiar with Java IO, Java Collections, Thread, etc. Understand JVM.",
+        "Solid knowledge of OOD/OOA, design patterns etc.",
+        "Rich Experiences in popular Java development frameworks and tools, such as, SpringMVC, SpringBoot, Hibernate, Redis, Kafka, NoSQL DBs.",
+        "Good knowledge of data integration, ODS, Data Warehouse and Big Data technologies, e.g. Spark, Flink, Hive, HBase, etc.",
+        "Experiences in Microservice architecture design & development with popular frameworks: Spring Cloud or Dubbo.",
+        "Experiences in Cloud Native technologies: Docker, K8S & Monitoring in Cloud environments.",
+        "Solid knowledge on Agile methodology and practices, such as Test Drive Development (TDD), CI/CD pipeline etc.",
+        "Knowledge on Relational Databases such as MySQL, DB2, Oracle and etc.",
+        "Knowledge of DevOps and related tooling (UCD, CHEF, Ansible, etc) is a plus.",
+        "Strong communication skill.",
+        "Good communication & documentation skills in English.",
+        "Good teamwork spirit.",
+        "Open minded and Self-motivated.",
+        "Quick learner.",
+        "Strong sense of ownership and high accountability.",
+        "Bachelor or master’s in computer science or related disciplines."
       ],
       "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
     },
@@ -129,36 +200,6 @@ const jobs = {
         "Proven talent for uniting and motivating teams towards a common goal.",
         "Proficiency with project management and reporting tools such as Jira or ZenHub.",
         "An understanding of development process, including design, development, testing, and deployment."
-      ],
-      "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
-    },
-    {
-      "position": "Front End Developer",
-      "location": "BEIJING",
-      "level": "BAND6",
-      "experience": "1-2 YEARS",
-      "type": "Developer",
-      "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive and adept at clear communication",
-      "responsibilities": [
-        "Proficient in mathematical model algorithm, familiar with machine learning and natural language processing is preferred",
-        "Proficient in Python/R, Hadoop platform development experience is preferred",
-        "Familiar with banking business is preferred",
-        "Able to accept business trips",
-        "Doctor degree in mathematics/statistics or related majors",
-        "Fluent in English or Japanese is a plus"
-      ],
-      "requirements": [
-        "Strong innovation skills and ability to solve computational problems.",
-        "Strong experience building web applications back-ends.",
-        "Strong knowledge using Typescript.",
-        "Strong experience in ReactJS.",
-        "Strong knowledge in styled-components.",
-        "Some experience working with a Designers Team.",
-        "Some experience Testing big web applications.",
-        "Break down a determined use case down into discrete MVPs (minimal viable products).",
-        "Some experience using version control software like GIT.",
-        "Communicate clearly and effectively.",
-        "Experience working on a team and collaborating to achieve a shared goal."
       ],
       "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
     },
