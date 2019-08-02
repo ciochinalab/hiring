@@ -57,7 +57,9 @@
     color: #F4F4F4;
   }
 } */
-
+p{
+  padding-bottom: 0px !important;
+}
 .job-details-background {
   background-color: #f4f4f4 !important;
 }
