@@ -134,9 +134,9 @@ const jobs = {
        "Provide support to other initiatives as and when required."
       ],
       "requirements": [
-       "Skills Required  -  DB2, AIX UNIX, Linux, Shell, SQL, SQL PL"
-       "Strong skill of Database (DB2, Oracle) and corresponding project experiences, 2+ years of experience in Database maintenance, among which 1+ years on DB2 Enterprise edition (8.2 and newer version)"
-       "Strong skill of Unix/Linux Knowledge and SHELL script programming, At least 1 years ’ experience in AIX UNIX (Administrator, support, programming)"
+       "Skills Required  -  DB2, AIX UNIX, Linux, Shell, SQL, SQL PL",
+       "Strong skill of Database (DB2, Oracle) and corresponding project experiences, 2+ years of experience in Database maintenance, among which 1+ years on DB2 Enterprise edition (8.2 and newer version)",
+       "Strong skill of Unix/Linux Knowledge and SHELL script programming, At least 1 years ’ experience in AIX UNIX (Administrator, support, programming)",
        "Strong analytical and troubleshooting skills",
        "Working experience with Datastage/IBM IIS on Linux/Unix platform.",
        "Experience in Data Modeling / Database Design.",
@@ -256,7 +256,8 @@ const jobs = {
         "Understanding and acting aligned with agile engineering culture, wiling to take challenges, and able to work under high pressure."
       ],
       "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
-    }, {
+    }, 
+    {
       "position": "Full Stack Developer",
       "location": "BEIJING",
       "level": "BAND6",
