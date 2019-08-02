@@ -1,7 +1,7 @@
 $(function () {
   //Job Opportunities Tab
-  var tabNeedToShow = 'industryHire';
-  var tabContent = ["industryHire", "campusHire", "internship"]
+  var tabNeedToShow = 'experienceHire';
+  var hireTab = ['experienceHire', 'campusHire', 'internship']
 
   // initialize the wechat popover
   $("#wechat-link").popover({
@@ -29,7 +29,7 @@ $(function () {
 
   if (GetParamFromUrl('tab')) {
     var tabId = GetParamFromUrl('tab');
-    if (tabContent.indexOf(tabId)) {
+    if (hireTab.indexOf(tabId)) {
       $('#tab-' + tabId).tab('show');
     }
   }
@@ -131,7 +131,6 @@ $(function () {
     return results[1];
   }
 
-  var hireTab = ['experienceHire', 'campusHire', 'internship']
 
   function generateJobOpp() {
     hireTab.forEach((item, index) => {
