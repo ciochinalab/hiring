@@ -231,143 +231,29 @@ const jobs = {
   ],
   "campusHire": [
   ],
-  "internship": [{
-      "position": "Software Engineer Developer",
+  "internship": [
+     {
+      "position": "IBM Application Tester (Intern)",
       "location": "BEIJING",
-      "level": "BAND7",
-      "experience": "3-5 YEARS",
+      "level": "N/A",
+      "experience": "1 YEARS",
       "type": "Developer",
-      "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, ",
+      "description": "Starting as a tester to prepare for test cases, execute the testing manually or develop automated testing. Further more having the opportunities on development work for Java EE or Salesforce applications for IBM Sales Transformation.",
       "responsibilities": [
-        "Proficient in mathematical model algorithm, familiar with machine learning and natural language processing is preferred",
-        "Proficient in Python/R, Hadoop platform development experience is preferred",
-        "Familiar with banking business is preferred",
-        "Able to accept business trips",
-        "Doctor degree in mathematics/statistics or related majors",
-        "Fluent in English or Japanese is a plus"
+        "Clarify and understand business requirements.",
+        "Build and implement automation test framework for web application.",
+        "Design, implement and maintain automated test case scripts.",
+        "Design test scenario, develop test cases, and execute.",
+        "Analyze test result, report problem, verify fixes, create test report.",
+        "Communicate and collaborate with development team and business team."
       ],
       "requirements": [
-        "Willing to learn and try new technologies, aiming to design elegant system architecture",
-        "Master in popular web development frameworks and tools",
-        "Master in cloud native application development, rich experience in on-premise application migration to cloud.",
-        "Master in micro-services architecture and rich experience in building micro-services applications",
-        "Master in DevOps，rich experience in building CI/CD pipeline and monitoring systems.",
-        "Rich experience in Domain Drive Design (DDD), design patterns, refactoring, and testing.",
-        "Solid knowledge on both relational and non relational Databases such as MySQL, DB2, Oracle, Mango DB, etc (at least one)",
-        "Strong interest in technical profession, always keeping eyes on latest technologies",
-        "Understanding and acting aligned with agile engineering culture, wiling to take challenges, and able to work under high pressure."
-      ],
-      "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
-    },
-    {
-      "position": "Automation Developer",
-      "location": "BEIJING",
-      "level": "BAND6",
-      "experience": "1-2 YEARS",
-      "type": "Developer",
-      "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive ",
-      "responsibilities": [
-        "Proficient in mathematical model algorithm, familiar with machine learning and natural language processing is preferred",
-        "Proficient in Python/R, Hadoop platform development experience is preferred",
-        "Familiar with banking business is preferred",
-        "Able to accept business trips",
-        "Doctor degree in mathematics/statistics or related majors",
-        "Fluent in English or Japanese is a plus"
-      ],
-      "requirements": [
-        "Willing to learn and try new technologies, aiming to design elegant system architecture",
-        "Master in popular web development frameworks and tools",
-        "Master in cloud native application development, rich experience in on-premise application migration to cloud.",
-        "Master in micro-services architecture and rich experience in building micro-services applications",
-        "Master in DevOps，rich experience in building CI/CD pipeline and monitoring systems.",
-        "Rich experience in Domain Drive Design (DDD), design patterns, refactoring, and testing.",
-        "Solid knowledge on both relational and non relational Databases such as MySQL, DB2, Oracle, Mango DB, etc (at least one)",
-        "Strong interest in technical profession, always keeping eyes on latest technologies",
-        "Understanding and acting aligned with agile engineering culture, wiling to take challenges, and able to work under high pressure."
-      ],
-      "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
-    },
-    {
-      "position": "Project Manager",
-      "location": "BEIJING",
-      "level": "BAND8",
-      "experience": "5 YEARS ABOVE",
-      "type": "Manager",
-      "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive and adept at clear communication",
-      "responsibilities": [
-        "Proficient in mathematical model algorithm, familiar with machine learning and natural language processing is preferred",
-        "Proficient in Python/R, Hadoop platform development experience is preferred",
-        "Familiar with banking business is preferred",
-        "Able to accept business trips",
-        "Doctor degree in mathematics/statistics or related majors",
-        "Fluent in English or Japanese is a plus"
-      ],
-      "requirements": [
-        "Willing to learn and try new technologies, aiming to design elegant system architecture",
-        "Master in popular web development frameworks and tools",
-        "Master in cloud native application development, rich experience in on-premise application migration to cloud.",
-        "Master in micro-services architecture and rich experience in building micro-services applications",
-        "Master in DevOps，rich experience in building CI/CD pipeline and monitoring systems.",
-        "Rich experience in Domain Drive Design (DDD), design patterns, refactoring, and testing.",
-        "Solid knowledge on both relational and non relational Databases such as MySQL, DB2, Oracle, Mango DB, etc (at least one)",
-        "Strong interest in technical profession, always keeping eyes on latest technologies",
-        "Understanding and acting aligned with agile engineering culture, wiling to take challenges, and able to work under high pressure."
-      ],
-      "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
-    },
-    {
-      "position": "Front End Developer",
-      "location": "BEIJING",
-      "level": "BAND6",
-      "experience": "1-2 YEARS",
-      "type": "Developer",
-      "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive and adept at clear communication",
-      "responsibilities": [
-        "Proficient in mathematical model algorithm, familiar with machine learning and natural language processing is preferred",
-        "Proficient in Python/R, Hadoop platform development experience is preferred",
-        "Familiar with banking business is preferred",
-        "Able to accept business trips",
-        "Doctor degree in mathematics/statistics or related majors",
-        "Fluent in English or Japanese is a plus"
-      ],
-      "requirements": [
-        "Willing to learn and try new technologies, aiming to design elegant system architecture",
-        "Master in popular web development frameworks and tools",
-        "Master in cloud native application development, rich experience in on-premise application migration to cloud.",
-        "Master in micro-services architecture and rich experience in building micro-services applications",
-        "Master in DevOps，rich experience in building CI/CD pipeline and monitoring systems.",
-        "Rich experience in Domain Drive Design (DDD), design patterns, refactoring, and testing.",
-        "Solid knowledge on both relational and non relational Databases such as MySQL, DB2, Oracle, Mango DB, etc (at least one)",
-        "Strong interest in technical profession, always keeping eyes on latest technologies",
-        "Understanding and acting aligned with agile engineering culture, wiling to take challenges, and able to work under high pressure."
-      ],
-      "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
-    },
-    {
-      "position": "Business Analysist",
-      "location": "BEIJING",
-      "level": "BAND6",
-      "experience": "1-3 YEARS",
-      "type": "BA",
-      "description": "You will develop exciting solutions that change the way both IBMers and IBM clients work. You'll work in a collaborative, welcoming environment where new ideas drive technological transformation. We work in small, cross-functional teams with big goals, so you will need to be adaptive and adept at clear communication",
-      "responsibilities": [
-        "Proficient in mathematical model algorithm, familiar with machine learning and natural language processing is preferred",
-        "Proficient in Python/R, Hadoop platform development experience is preferred",
-        "Familiar with banking business is preferred",
-        "Able to accept business trips",
-        "Doctor degree in mathematics/statistics or related majors",
-        "Fluent in English or Japanese is a plus"
-      ],
-      "requirements": [
-        "Willing to learn and try new technologies, aiming to design elegant system architecture",
-        "Master in popular web development frameworks and tools",
-        "Master in cloud native application development, rich experience in on-premise application migration to cloud.",
-        "Master in micro-services architecture and rich experience in building micro-services applications",
-        "Master in DevOps，rich experience in building CI/CD pipeline and monitoring systems.",
-        "Rich experience in Domain Drive Design (DDD), design patterns, refactoring, and testing.",
-        "Solid knowledge on both relational and non relational Databases such as MySQL, DB2, Oracle, Mango DB, etc (at least one)",
-        "Strong interest in technical profession, always keeping eyes on latest technologies",
-        "Understanding and acting aligned with agile engineering culture, wiling to take challenges, and able to work under high pressure."
+         "Master Degree post-graduates, graduating in 2021.",
+         "Able to understand requirement and design test scenarios/test cases.",
+         "Solid Java or Python coding skills.",
+         "Experience with Selenium/WebDriver/Python Robot Testing Framework, able to setup testing framework quickly.",
+         "SQL/NoSQL skills.",
+         "English listen/speak/read/write must be qualified as this is a global project."
       ],
       "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
     }
