@@ -14,9 +14,23 @@
     margin-left: 0 !important;
     list-style: none;
 }
+
+.task-card {
+  padding: 1.8125rem 1.5rem 1.5rem;
+  background-color: #fff;
+  height: 16.8125rem;
+}
+
+.cio-career-top-pad-medium{
+  padding-top: 2.5rem;
+}
+.teamName-top-pad{
+  padding-top: 1.5rem;
+}
 }
 
 @media screen and (min-width: 768px) {
+
   #carouselBecomePartOf .carousel-indicators {
     position: absolute;
     right: auto !important;
@@ -31,6 +45,18 @@
     margin-right: 0 !important;
     margin-left: 0 !important;
     list-style: none;
+}
+
+.task-card {
+  padding: 2.4375rem 1.5rem 1rem;
+  background-color: #fff;
+  height: 258px;
+}
+.cio-career-top-pad-medium{
+  padding-top: 5rem;
+}
+.teamName-top-pad{
+  padding-top: 1rem;
 }
   
 }
@@ -79,6 +105,18 @@
   background-color: #f4f4f4 !important;
 }
 
+.ibm-columns{
+  padding: 0 16px !important;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  padding-right: 0px !important; 
+  padding-left: 0px !important;
+}
+.row{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
 /* .cover-title p {
   font-size: 1.2rem;
 }
@@ -144,17 +182,12 @@
   background-repeat: repeat;
 }
 
-.meet-our-team>P:first-child {
+/* .meet-our-team>P:first-child {
   color: #fff;
   text-align: center;
-}
+} */
 
 
-.meet-our-team .carousel-item .task-card {
-  padding: 1rem;
-  background-color: #fff;
-  height: 258px;
-}
 
 .meet-our-team ol{
   padding: 0px;
@@ -165,9 +198,9 @@
 }
 
 
-.job-opportunity>p:first-child {
+/* .job-opportunity>p:first-child {
   text-align: center;
-}
+} */
 
 
 
@@ -207,3 +240,26 @@
   -webkit-box-orient: vertical;
 }
 
+.ellipsis-2{
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.ellipsis-3{
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.font-weight-600{
+  font-weight: 600;
+}

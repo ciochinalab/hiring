@@ -26,19 +26,34 @@
 
   .cio-career-padding-big {
     padding-top: 3rem !important;
-    padding-bottom: 1.5rem !important;
+    padding-bottom: 1.4625rem !important;
   }
 
   .cio-career-padding-top-normal {
     padding-top: 1rem !important;
   }
 
-  .cio-career-padding-bottom-normal {
-    padding-bottom: 1rem !important;
+  .cio-career-title-top-pad{
+    /* 80 */
+    padding-top: 5rem;
+  }
+  .cio-career-title-bottom-pad{
+    /* 80 */
+    padding-bottom: 5rem;
   }
 
-  .cio-career-aglign-center {
-    text-align: center;
+  .cio-career-padding-top-small{
+    padding-top: 1rem;
+  }
+  .cio-career-padding-bottom-normal {
+    padding-bottom: 2rem !important;
+  }
+  .cio-career-padding-top-img{
+    padding-top: 2.5rem;
+  }
+  .cio-career-padding-whatwedo{
+    padding-top: 5rem;
+    padding-bottom:5rem;
   }
 
   .cover-title {
@@ -51,12 +66,12 @@
   .job-opportunity .tab-content .job-card {
     margin-top: 1rem;
     background-color: #fff;
-    height: 350px;
+    height: 17rem;
   }
 
   .job-card-content {
     padding: 1.5rem;
-    height: 350px;
+    height: 17rem;
   }
 
   .industryHireImg {
@@ -89,10 +104,15 @@
 
   .becomePartOfCardImg {
     width: 100% !important;
+    height: 100% !important;
   }
 
   .meet-our-team-pad {
     padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .team-card-pad{
+    padding-left:1rem;
     padding-right: 1rem;
   }
 
@@ -130,11 +150,29 @@
   }
 
   .cio-career-padding-top-normal {
+    /* 40 */
     padding-top: 2.5rem !important;
   }
+  .cio-career-title-top-pad{
+    /* 128 */
+    padding-top: 8rem;
+  }
+  .cio-career-title-bottom-pad{
+    padding-bottom: 8rem;
+  }
 
+  .cio-career-padding-top-small{
+    padding-top: 1.5rem;
+  }
   .cio-career-padding-bottom-normal {
     padding-bottom: 2.5rem !important;
+  }
+  .cio-career-padding-top-img{
+    padding-top: 5.375rem;
+  }
+  .cio-career-padding-whatwedo{
+    padding-top: 5.3rem;
+    padding-bottom:8rem;
   }
 
   .cover-title {
@@ -187,9 +225,13 @@
     padding-left: 7.92rem;
     padding-right: 7.92rem;
   }
+  .team-card-pad{
+    padding-left:1rem;
+    padding-right: 1rem;
+  }
 }
 
-#main p {
+#ibm-content-wrapper p {
   padding-bottom: 0px
 }
 
@@ -198,5 +240,9 @@
 }
 
 .text-center {
+  text-align: center;
+}
+
+.cio-career-aglign-center {
   text-align: center;
 }

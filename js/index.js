@@ -1,5 +1,8 @@
 $(function () {
+  //Job Opportunities Tab
   var tabNeedToShow= 'industryHire';
+  var tabContent = ["industryHire", "campusHire", "internship"]
+
   // initialize the wechat popover
   $("#wechat-link").popover({
     trigger: "hover",
@@ -10,9 +13,6 @@ $(function () {
 
   $('#opp-nav-tab a').click(function (e) {
     tabNeedToShow = ($(this)[0].id).slice(4);
-    // history.pushState({
-    //   title: tabNeedToShow
-    // }, "", 'index.html?tab=' + tabNeedToShow);
   })
 
 
@@ -27,7 +27,6 @@ $(function () {
     }, 0);
   })
 
-  var tabContent = ["industryHire", "campusHire", "internship"]
   if (GetParamFromUrl('tab')) {
     var tabId = GetParamFromUrl('tab');
     if (tabContent.indexOf(tabId)) {
@@ -89,11 +88,13 @@ $(function () {
     teams.forEach((team, index) => {
       let item = `
       <div class="col-sm-12 col-md-${cardWidth} col-lg-${cardWidth}">
+      <div class="team-card-pad">
         <div class="task-card" style="overflow:hidden">
-          <img src="img/${team.icon}.png" align="top" class="ibm-padding-bottom-1">
-          <p class="ibm-bold ibm-padding-bottom-1">${team.teamName}</p>
+          <img src="img/${team.icon}.png" align="top" style="height:2.875rem">
+          <p class="ibm-bold teamName-top-pad">${team.teamName}</p>
           <p>${team.teamDetail}
         </p>
+        </div>
         </div>
       </div>`
       teamCard.push(item);
@@ -145,17 +146,19 @@ $(function () {
       <div class="industryHireImg col-sm-0 col-md-2 col-lg-2">
         <img src="img/Card-icon-${job.type}-Web.png" style="width:100%;height:100%"></img>
       </div>
-      <div class="col-sm-11 col-md-10 col-lg-10 job-card-content" style="overflow:hidden;position:relative">
+      <div class="col-sm-11 col-md-10 col-lg-10" style="overflow:hidden;position:relative">
+      <div class="job-card-content">
         <p class="cio-career-h2">${job.position}</p>
         <p>
             <span>${job.location}</span> |
             <span>${job.level}</span> |
             <span>${job.experience}</span>
         </p>
-        <p class="ibm-padding-bottom-1">${job.description}</p>
+        <p class="ellipsis-2">${job.description}</p>
         <p style="position:absolute;bottom:25px;">
             <a class="view-more" href="details.html?category=${hireTab[j]}&index=${index}">View More -></a>
         </p>
+        </div>
       </div>
     </div>
     `);
@@ -178,7 +181,7 @@ $(function () {
                   <span>${job.level}</span> |
                   <span>${job.experience}</span>
                 </p>
-                <p class="ibm-padding-bottom-1">${job.description}</p>
+                <p class="ellipsis-3">${job.description}</p>
                 <p style="position:absolute;bottom:25px;">
                   <a class="view-more" href="details.html?category=${hireTab[j]}&index=${index}">View More -></a>
                 </p>

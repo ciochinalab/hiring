@@ -2,7 +2,7 @@ $(function() {
   const job = jobs[getQueryString("category")][getQueryString("index")];
   $(".position-name").append(`
         <p class="cio-career-h1 text-center">${job.position}</p>
-        <p class="cio-career-h3 text-center">
+        <p class="cio-career-h3 text-center job-info-top-pad">
           <span>${job.location}</span> |
           <span>${job.level}</span> |
           <span>${job.experience}</span>

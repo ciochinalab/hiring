@@ -19,6 +19,9 @@
     padding-top: 5rem;
     padding-bottom: 1rem !important;
   }
+  .job-info-top-pad{
+    padding-top: 1rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -29,7 +32,7 @@
 
   .position {
     background-image: url("../img/JD-banner-Web.png");
-    background-size: 100% 100%;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     color: #F4F4F4;
   }
@@ -42,8 +45,19 @@
     padding-top: 4rem;
     padding-bottom: 1.5rem !important;
   }
+  .job-info-top-pad{
+    padding-top: 2rem;
+  }
 }
+/* @media screen and (min-width: 1680px) {
+  .position {
+    background-image: url("../img/JD-banner-Mobile.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #F4F4F4;
+  }
+} */
 
-.job-details {
+.job-details-background {
   background-color: #f4f4f4 !important;
 }
