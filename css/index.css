@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) {
+  .become-part-of>.all-in-small-center-in-big{
+    width: 100% !important
+  }
   #carouselBecomePartOf .carousel-indicators {
     position: absolute;
     right: auto !important;
@@ -39,7 +42,11 @@
 }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1679px) {
+@media screen and (min-width: 768px) and (max-width: 1669px) {
+  .become-part-of>.all-in-small-center-in-big{
+    width: 100% !important
+  }
+
   #carouselBecomePartOf .carousel-indicators {
     position: absolute;
     right: auto !important;
@@ -79,8 +86,14 @@
 }
 }
 
-@media screen and (min-width: 1680px) {
+@media screen and (min-width: 1670px) and (max-width:1680px) {
+  .become-part-of>.all-in-small-center-in-big{
+    width: 100% !important;
+    padding: 0px !important;
+  }
+}
 
+@media screen and (min-width: 1670px) {
   #carouselBecomePartOf .carousel-indicators {
     position: absolute;
     right: auto !important;
@@ -120,6 +133,10 @@
 }
   
 }
+ol>li::before, ul>li::before {
+  display: none !important;
+}
+
 .careerPurple {
   color: #8A3FFC;
 }
