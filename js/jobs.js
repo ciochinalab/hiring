@@ -477,32 +477,32 @@ const jobs = {
 
 const teams = [{
     "teamName": "DSW Commerce and Analytics",
-    "icon": "Icon-4",
+    "icon": "icon1",
     "teamDetail": "IBM Distributed Software and Cloud services commerce platform, as well as data integration and analytics systems."
   },
   {
     "teamName": "z/OS Software Commerce",
-    "icon": "Icon-7",
+    "icon": "icon2",
     "teamDetail": "IBM z/OS Software configuration, commerce, and fulfillment systems."
   },
   {
     "teamName": "Web Solution Enablement",
-    "icon": "Icon-5",
+    "icon": "icon3",
     "teamDetail": "A platform providing end-to-end experience to IBM sales and clients [Dalian]."
   },
   {
     "teamName": "Marketing Analytics & Reporting",
-    "icon": "Icon-6",
+    "icon": "icon4",
     "teamDetail": "IBM Distributed Software and Cloud services commerce platform, as well as data integration and analytics systems."
   },
   {
     "teamName": "Digital Commerce",
-    "icon": "Icon-4",
+    "icon": "Icon-9",
     "teamDetail": "Integrating and migrating sales workflow in B2B & B2C order."
   },
   {
     "teamName": "Digital Engineering and ERP",
-    "icon": "Icon-5",
+    "icon": "Icon-10",
     "teamDetail": "IBM Distributed Software and Cloud services commerce platform, as well as data integration and analytics systems."
   }
 ]
