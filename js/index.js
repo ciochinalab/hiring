@@ -148,7 +148,7 @@ $(function () {
             $('#' + hireTab[j]).append(`
       <div class="job-card row">
         <div class="industryHireImg col-sm-0 col-md-2 col-lg-2">
-          <img src="img/Card-icon-${job.type}-Web.png" style="width:100%;height:100%"></img>
+          <img src="img/Card-icon-${job.type}-Web.png" style="width:auto;height:100%"></img>
         </div>
         <div class="col-sm-11 col-md-10 col-lg-10" style="overflow:hidden;position:relative">
         <div class="job-card-content">
