@@ -1,5 +1,5 @@
 const jobs = {
-  "industryHire": [
+  "experienceHire": [
       {
       "position": "DevOps Engineer",
       "location": "BEIJING",

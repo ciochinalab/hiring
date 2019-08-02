@@ -131,7 +131,7 @@ $(function () {
     return results[1];
   }
 
-  var hireTab = ['industryHire', 'campusHire', 'internship']
+  var hireTab = ['experienceHire', 'campusHire', 'internship']
 
   function generateJobOpp() {
     hireTab.forEach((item, index) => {
