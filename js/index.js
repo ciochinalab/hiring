@@ -154,7 +154,11 @@ $(function () {
             <span>${job.level}</span> |
             <span>${job.experience}</span>
         </p>
-        <p class="ellipsis-2">${job.description}</p>
+        <p class="ellipsis-2">
+        ${job.requirements.map((requirement,index) => `
+        <span>${requirement}</span>
+      `).join('')}
+        </p>
         <p style="position:absolute;bottom:25px;">
             <a class="view-more" href="details.html?category=${hireTab[j]}&index=${index}">View More -></a>
         </p>
@@ -181,7 +185,16 @@ $(function () {
                   <span>${job.level}</span> |
                   <span>${job.experience}</span>
                 </p>
-                <p class="ellipsis-3">${job.description}</p>
+                <p class="ellipsis-3">
+
+    
+                ${job.requirements.map((requirement,index) => `
+                <span>${requirement}</span>
+              `).join('')}
+
+        
+            
+                </p>
                 <p style="position:absolute;bottom:25px;">
                   <a class="view-more" href="details.html?category=${hireTab[j]}&index=${index}">View More -></a>
                 </p>
