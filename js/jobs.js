@@ -1,5 +1,29 @@
 const jobs = {
   "industryHire": [{
+      "position": "DevOps Engineer",
+      "location": "BEIJING",
+      "level": "BAND6-7",
+      "experience": "1-3 YEARS",
+      "type": "Engineer",
+      "description": "IBM CIO DSW Commerce tribe aims to provide IBM sales, partners and customers great commerce experience of quotation, ordering and self services, to drive IBM software and XaaS revenue increase. Cloud Foundation squad provides and maintains the Cloud foundation for the whole set of DSW Commerce applications, and endeavors to migrate all web applications to IBM Cloud with modernized architecture like containerization, microservice and service mesh, cloud native etc . Cloud Foundation squad also supports the operations of DSW Commerce on IBM Cloud to guarantee stable and reliable services for IBM revenues with DSW Commerce applications.",
+      "responsibilities": [
+        "Cloud Infrastructure maintenance, monitoring and management including network, load balancer, storage, Kubernetes etc.",
+        "Container orchestration for all kinds of DSW Commerce applications on IBM Cloud",
+        "CI/CD pipeline based on Kubernetes on IBM Cloud and continuous delivery by agile cadence.",
+        "Operation of DSW Commerce on IBM Cloud, including issue tracking and troubleshooting."
+      ],
+      "requirements": [
+        "Great passion to work on full-stack development, fast learning capabilities.",
+        "Rich knowledge and experiences on DevOps methodologies and tools, including Git, Jenkins, or similar.",
+        "Rich knowledge and experiences on Cloud, Kubernetes, Container, Microservices etc.",
+        "Strong programming skills with at least one of languages: Java/Shell/Groovy/Perl/Python/Go.",
+        "Experience on middleware: WebSphere Application Server/WebSphere Liberty/Edge is a plus.",
+        "Good understanding and practice on Agile development methodologies and practices.",
+        "Good communication skills in both Chinese and English, team player and strong willing to improve."
+      ],
+      "applications": ['Send your resume to hjfbj@cn.ibm.com', 'Prefix the email title with "Position" and "From Wechat".']
+    },
+                   {
       "position": "Full Stack Developer",
       "location": "BEIJING",
       "level": "BAND6",
