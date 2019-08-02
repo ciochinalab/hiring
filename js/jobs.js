@@ -71,13 +71,13 @@ const jobs = {
         "use your skills and experience as a Cognos BI Developer to design, develop, test and implement reports and dashboards that utilize the underlying data stores / data warehouses / data marts." 
       ],
       "requirements": [
-        "•  At lease 2+ year experience developing and implementing Cognos reports and dashboards.",
-        "•  Strong knowledge of logical and physical data modeling concepts. ",
-        "•  Hands on experience of Report Studio, Workspace Advanced, Query Studio, Analysis Studio, and other related Cognos reports development tools. ",
-        "•  Strong background in SQL with some knowledge of data modeling best practices using Cognos Modeling tools, like Framework, Transformer.",
-        "•  Strong skill of XML, Javascript, and front-end development.",
-        "•  Experience of tuning related to reporting queries required.",
-        "•  Understand of data integration issues (validation and cleaning), familiarity with complex data structures.",
+        "At lease 2+ year experience developing and implementing Cognos reports and dashboards.",
+        "Strong knowledge of logical and physical data modeling concepts. ",
+        "Hands on experience of Report Studio, Workspace Advanced, Query Studio, Analysis Studio, and other related Cognos reports development tools. ",
+        "Strong background in SQL with some knowledge of data modeling best practices using Cognos Modeling tools, like Framework, Transformer.",
+        "Strong skill of XML, Javascript, and front-end development.",
+        "Experience of tuning related to reporting queries required.",
+        "Understand of data integration issues (validation and cleaning), familiarity with complex data structures.",
         "Strong communication skill.",
         "Good communication & documentation skills in English.",
         "Good teamwork spirit.",
@@ -128,10 +128,10 @@ const jobs = {
       "type": "Developer",
       "description": "In this team, you will have great opportunities to work with senior worldwide Data Integration professionals and plenty of chances to learn leading edge Data Integration technologies. Most importantly, you will have the valuable opportunities to study how IBM runs its enterprise transformation from business perspective.",
       "responsibilities": [
-       "Initialize, plan and maintain database platform/projects (DB2, AIX, Linux).",
-       "Be responsible to deliver systems on time and quality.",
-       "Ensure the smooth communication among the project members, interact with various teams to make sure the DB system is running with high availability and performance.",
-       "Provide support to other initiatives as and when required."
+        "Initialize, plan and maintain database platform/projects (DB2, AIX, Linux).",
+        "Be responsible to deliver systems on time and quality.",
+        "Ensure the smooth communication among the project members, interact with various teams to make sure the DB system is running with high availability and performance.",
+        "Provide support to other initiatives as and when required."
       ],
       "requirements": [
        "Skills Required  -  DB2, AIX UNIX, Linux, Shell, SQL, SQL PL",
