@@ -500,12 +500,12 @@ const teams = [{
     "teamDetail": "IBM Distributed Software and Cloud services commerce platform, as well as data integration and analytics systems."
   },
   {
-    "teamName": "Web Solution Enablement",
+    "teamName": "Digital Commerce",
     "icon": "Icon-4",
-    "teamDetail": " A platform providing end-to-end experience to IBM sales and clients [Dalian]."
+    "teamDetail": "Integrating and migrating sales workflow in B2B & B2C order."
   },
   {
-    "teamName": "Marketing Analytics & Reporting",
+    "teamName": "Digital Engineering and ERP",
     "icon": "Icon-5",
     "teamDetail": "IBM Distributed Software and Cloud services commerce platform, as well as data integration and analytics systems."
   }

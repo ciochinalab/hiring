@@ -6,7 +6,7 @@
 
   .position {
     background-image: url("../img/JD-banner-Mobile.png");
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #F4F4F4;
   }
@@ -32,7 +32,7 @@
 
   .position {
     background-image: url("../img/JD-banner-Web.png");
-    background-size: auto 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #F4F4F4;
   }
