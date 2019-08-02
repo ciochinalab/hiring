@@ -33,27 +33,31 @@
     padding-top: 1rem !important;
   }
 
-  .cio-career-title-top-pad{
+  .cio-career-title-top-pad {
     /* 80 */
     padding-top: 5rem;
   }
-  .cio-career-title-bottom-pad{
+
+  .cio-career-title-bottom-pad {
     /* 80 */
     padding-bottom: 5rem;
   }
 
-  .cio-career-padding-top-small{
+  .cio-career-padding-top-small {
     padding-top: 1rem;
   }
+
   .cio-career-padding-bottom-normal {
     padding-bottom: 2rem !important;
   }
-  .cio-career-padding-top-img{
+
+  .cio-career-padding-top-img {
     padding-top: 2.5rem;
   }
-  .cio-career-padding-whatwedo{
+
+  .cio-career-padding-whatwedo {
     padding-top: 5rem;
-    padding-bottom:5rem;
+    padding-bottom: 5rem;
   }
 
   .cover-title {
@@ -111,14 +115,142 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  .team-card-pad{
-    padding-left:1rem;
+
+  .team-card-pad {
+    padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .growing-top-pad{
+    padding-top: 2.5rem;
   }
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1680px) {
+  html {
+    font-size: 14px;
+  }
+  .cio-career-h1 {
+    font-size: 4.75rem;
+    line-height: 5.375rem;
+  }
+
+  .cio-career-h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .cio-career-h3 {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
+  .cio-career-small {
+    font-size: 0.875rem
+  }
+
+  .cio-career-medium {
+    font-size: 3.75rem;
+    line-height: 4.375rem;
+  }
+
+  .cio-career-padding-big {
+    padding-top: 4rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  .cio-career-padding-top-normal {
+    padding-top: 2rem !important;
+  }
+
+  .cio-career-title-top-pad {
+    /* 128 */
+    padding-top: 8rem;
+  }
+
+  .cio-career-title-bottom-pad {
+    padding-bottom: 8rem;
+  }
+
+  .cio-career-padding-top-small {
+    padding-top: 1.25rem;
+  }
+
+  .cio-career-padding-bottom-normal {
+    padding-bottom: 2.5rem !important;
+  }
+
+  .cio-career-padding-top-img {
+    padding-top: 5.375rem;
+  }
+
+  .cio-career-padding-whatwedo {
+    padding-top: 5.3rem;
+    padding-bottom: 8rem;
+  }
+
+  .cover-title {
+    background-image: url("../img/Banner-Web.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+
+  .job-opportunity .tab-content .job-card {
+    margin-top: 1rem;
+    background-color: #fff;
+    height: 200px;
+  }
+
+  .job-card-content {
+    padding: 1.5rem;
+    height: 200px;
+  }
+
+  .industryHireImg {
+    height: 100%;
+    max-width: 80px;
+    padding: 0px !important;
+  }
+
+  .becomePartOfCard {
+    height: 30rem;
+  }
+
+  .becomePartOfCardPad {
+    padding-left: 7rem;
+    padding-right: 8.5rem;
+  }
+
+  .cio-career-padding-top-p {
+    padding-top: 2rem;
+  }
+
+  .cio-career-padding-top-h3 {
+    padding-top: 4rem
+  }
+
+  .becomePartOfCardImg {
+    height: 100% !important;
+  }
+
+  .meet-our-team-pad {
+    padding-left: 7.92rem;
+    padding-right: 7.92rem;
+  }
+
+  .team-card-pad {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .growing-top-pad{
+    padding-top: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1680px) {
 
   .cio-career-h1 {
     font-size: 4.75rem;
@@ -153,26 +285,31 @@
     /* 40 */
     padding-top: 2.5rem !important;
   }
-  .cio-career-title-top-pad{
+
+  .cio-career-title-top-pad {
     /* 128 */
     padding-top: 8rem;
   }
-  .cio-career-title-bottom-pad{
+
+  .cio-career-title-bottom-pad {
     padding-bottom: 8rem;
   }
 
-  .cio-career-padding-top-small{
+  .cio-career-padding-top-small {
     padding-top: 1.5rem;
   }
+
   .cio-career-padding-bottom-normal {
     padding-bottom: 2.5rem !important;
   }
-  .cio-career-padding-top-img{
+
+  .cio-career-padding-top-img {
     padding-top: 5.375rem;
   }
-  .cio-career-padding-whatwedo{
+
+  .cio-career-padding-whatwedo {
     padding-top: 5.3rem;
-    padding-bottom:8rem;
+    padding-bottom: 8rem;
   }
 
   .cover-title {
@@ -225,9 +362,14 @@
     padding-left: 7.92rem;
     padding-right: 7.92rem;
   }
-  .team-card-pad{
-    padding-left:1rem;
+
+  .team-card-pad {
+    padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .growing-top-pad{
+    padding-top: 2.5rem;
   }
 }
 

@@ -24,6 +24,9 @@
 .cio-career-top-pad-medium{
   padding-top: 2.5rem;
 }
+.cio-career-bottom-pad-medium{
+  padding-bottom: 2.5rem;
+}
 .teamName-top-pad{
   padding-top: 1.5rem;
 }
@@ -36,7 +39,47 @@
 }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1680px) {
+  #carouselBecomePartOf .carousel-indicators {
+    position: absolute;
+    right: auto !important;
+    bottom: 0;
+    left: calc(7rem + 50%);
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    list-style: none;
+}
+
+.task-card {
+  padding: 1.5rem;
+  background-color: #fff;
+  height: 16.875rem;
+}
+.cio-career-top-pad-medium{
+  padding-top: 5rem;
+}
+.cio-career-bottom-pad-medium{
+  padding-bottom: 5rem;
+}
+.teamName-top-pad{
+  padding-top: 1rem;
+}
+.meet-our-team {
+  margin-left: -15px;
+  margin-right: -15px;
+  background-image: url("../img/Team-background-Web.png");
+  background-size: 100% auto;
+  background-repeat: repeat;
+}
+}
+
+@media screen and (min-width: 1680px) {
 
   #carouselBecomePartOf .carousel-indicators {
     position: absolute;
@@ -61,6 +104,9 @@
 }
 .cio-career-top-pad-medium{
   padding-top: 5rem;
+}
+.cio-career-bottom-pad-medium{
+  padding-bottom: 5rem;
 }
 .teamName-top-pad{
   padding-top: 1rem;

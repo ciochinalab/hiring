@@ -1,6 +1,6 @@
 $(function () {
   //Job Opportunities Tab
-  var tabNeedToShow= 'industryHire';
+  var tabNeedToShow = 'industryHire';
   var tabContent = ["industryHire", "campusHire", "internship"]
 
   // initialize the wechat popover
@@ -17,7 +17,7 @@ $(function () {
 
 
   $('#wechat-link').on('show.bs.popover', function () {
-    var currentHref = window.location.origin + window.location.pathname +"?tab=" +tabNeedToShow
+    var currentHref = window.location.origin + window.location.pathname + "?tab=" + tabNeedToShow
     setTimeout(function () {
       $('#qrcode').qrcode({
         text: currentHref,
@@ -91,7 +91,7 @@ $(function () {
       <div class="team-card-pad">
         <div class="task-card" style="overflow:hidden">
           <img src="img/${team.icon}.png" align="top" style="height:2.875rem">
-          <p class="ibm-bold teamName-top-pad">${team.teamName}</p>
+          <p class="ibm-bold teamName-top-pad" style="padding-bottom:5px">${team.teamName}</p>
           <p>${team.teamDetail}
         </p>
         </div>
@@ -140,39 +140,48 @@ $(function () {
     if ($(window).width() >= 768) {
       for (var j = 0; j < hireTab.length; j++) {
         // initialize job opportunities
-        jobs[hireTab[j]].forEach((job, index) => {
+        if (jobs[hireTab[j]].length === 0) {
           $('#' + hireTab[j]).append(`
-    <div class="job-card row">
-      <div class="industryHireImg col-sm-0 col-md-2 col-lg-2">
-        <img src="img/Card-icon-${job.type}-Web.png" style="width:100%;height:100%"></img>
-      </div>
-      <div class="col-sm-11 col-md-10 col-lg-10" style="overflow:hidden;position:relative">
-      <div class="job-card-content">
-        <p class="cio-career-h2">${job.position}</p>
-        <p>
-            <span>${job.location}</span> |
-            <span>${job.level}</span> |
-            <span>${job.experience}</span>
-        </p>
-        <p class="ellipsis-2">
-        ${job.requirements.map((requirement,index) => `
-        <span>${requirement}</span>
-      `).join('')}
-        </p>
-        <p style="position:absolute;bottom:25px;">
-            <a class="view-more" href="details.html?category=${hireTab[j]}&index=${index}">View More -></a>
-        </p>
+          <p style="padding-left:16px;margin-top: 1rem;">No jobs available yet</p>`)
+        } else {
+          jobs[hireTab[j]].forEach((job, index) => {
+            $('#' + hireTab[j]).append(`
+      <div class="job-card row">
+        <div class="industryHireImg col-sm-0 col-md-2 col-lg-2">
+          <img src="img/Card-icon-${job.type}-Web.png" style="width:100%;height:100%"></img>
+        </div>
+        <div class="col-sm-11 col-md-10 col-lg-10" style="overflow:hidden;position:relative">
+        <div class="job-card-content">
+          <p class="cio-career-h2">${job.position}</p>
+          <p>
+              <span>${job.location}</span> |
+              <span>${job.level}</span> |
+              <span>${job.experience}</span>
+          </p>
+          <p class="ellipsis-2">
+          ${job.requirements.map((requirement,index) => `
+          <span>${requirement}</span>
+        `).join('')}
+          </p>
+          <p style="position:absolute;bottom:25px;">
+              <a class="view-more" href="details.html?category=${hireTab[j]}&index=${index}">View More -></a>
+          </p>
+          </div>
         </div>
       </div>
-    </div>
-    `);
-        });
+      `);
+          });
+        }
       }
     } else {
       for (var j = 0; j < hireTab.length; j++) {
         // initialize job opportunities
-        jobs[hireTab[j]].forEach((job, index) => {
+        if (jobs[hireTab[j]].length === 0) {
           $('#' + hireTab[j]).append(`
+          <p style="padding-left:16px;margin-top: 1rem;">No jobs available yet</p>`)
+        } else {
+          jobs[hireTab[j]].forEach((job, index) => {
+            $('#' + hireTab[j]).append(`
             <div class="job-card">
               <div class="industryHireImg industryHireLeft">
                <img src="img/Card-icon-${job.type}-Mobile.png" style="height:100%">
@@ -197,7 +206,8 @@ $(function () {
               </div>
             </div>
         `);
-        });
+          });
+        }
       }
     }
   }
