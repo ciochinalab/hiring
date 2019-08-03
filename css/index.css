@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
   .become-part-of>.all-in-small-center-in-big{
-    width: 100% !important
+    width: 100% !important;
+    padding: 0px !important;
   }
   #carouselBecomePartOf .carousel-indicators {
     position: absolute;
@@ -44,7 +45,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1669px) {
   .become-part-of>.all-in-small-center-in-big{
-    width: 100% !important
+    width: 100% !important;
+    padding: 0px !important;
   }
 
   #carouselBecomePartOf .carousel-indicators {
@@ -270,16 +272,13 @@ ol>li::before, ul>li::before {
 }
 
 
-/* .job-opportunity>p:first-child {
-  text-align: center;
-} */
-
-
-
 .job-opportunity .tab-content .job-card p:last-child {
   margin-bottom: 0;
 }
 
+.job-opportunity{
+  padding: 0px !important;
+}
 
 .industryHireLeft{
   float: left; 
