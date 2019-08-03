@@ -64,10 +64,15 @@ $(function () {
   //   });
   //initialize out teams module
   var pageSize = $(window).width();
-  var showCardNumInCom = 4;
   var indicatorNumArray;
+  var showCardNumInCom;
 
   function generateTeamIndicator() {
+    if ($(window).width() <= 1240) {
+      showCardNumInCom = 2;
+    } else if ($(window).width() > 1240) {
+      showCardNumInCom = 4;
+    }
     if ($(window).width() < 768) {
       indicatorNumArray = teams;
     } else {
@@ -110,7 +115,7 @@ $(function () {
       indicatorNumArray.forEach((item, index) => {
         currentCardIndex = index1;
         var teamCardInner = ``;
-        for (index1; index1 < currentCardIndex + 4 && index1 < teams.length; index1++) {
+        for (index1; index1 < currentCardIndex + showCardNumInCom && index1 < teams.length; index1++) {
           teamCardInner = teamCardInner + teamCard[index1]
         }
         teamInner = teamInner + `<div  ${index === 0? 'class="carousel-item active cio-career-padding-bottom-normal"' : 'class="carousel-item cio-career-padding-bottom-normal"'}> <div class="row">` + teamCardInner +
@@ -217,14 +222,19 @@ $(function () {
 
   $(window).resize(function () {
     if ((pageSize < 768 && $(window).width() >= 768) || pageSize >= 768 && $(window).width() < 768) {
-      pageSize = $(window).width();
+      generateJobOpp();
+    }
+    if ((pageSize < 768 && $(window).width() >= 768) || (pageSize >= 768 && $(window).width() < 768) || (pageSize > 1240 && $(window).width() <= 1240) || (pageSize <= 1240 && $(window).width() > 1240)) {
       $('#meetOurTeamInner').empty();
       $('#meetOurTeamIndicator').empty();
       generateTeamIndicator();
       generateTeamInnerCard();
-      generateJobOpp();
+      pageSize = $(window).width();
     }
   })
+
+
+
 
 
 });
