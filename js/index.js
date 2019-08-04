@@ -162,7 +162,7 @@ $(function () {
               <span>${job.level}</span> |
               <span>${job.experience}</span>
           </p>
-          <p class="ellipsis-2">
+          <p class="ellipsis-2 imitate_ellipsis">
           ${job.requirements.map((requirement,index) => `
           <span>${requirement}</span>
         `).join('')}
@@ -198,7 +198,7 @@ $(function () {
                   <span>${job.level}</span> |
                   <span>${job.experience}</span>
                 </p>
-                <p class="ellipsis-3">
+                <p class="ellipsis-3 imitate_ellipsis">
                 ${job.requirements.map((requirement,index) => `
                 <span>${requirement}</span>
               `).join('')}

@@ -1,8 +1,9 @@
 @media screen and (max-width: 768px) {
-  .become-part-of>.all-in-small-center-in-big{
+  .become-part-of>.all-in-small-center-in-big {
     width: 100% !important;
     padding: 0px !important;
   }
+
   #carouselBecomePartOf .carousel-indicators {
     position: absolute;
     right: auto !important;
@@ -17,34 +18,51 @@
     margin-right: 0 !important;
     margin-left: 0 !important;
     list-style: none;
-}
+  }
 
-.task-card {
-  padding: 1.8125rem 1.5rem 1.5rem;
-  background-color: #fff;
-  height: 16.8125rem;
-}
+  .task-card {
+    padding: 1.8125rem 1.5rem 1.5rem;
+    background-color: #fff;
+    height: 16.8125rem;
+  }
 
-.cio-career-top-pad-medium{
-  padding-top: 2.5rem;
-}
-.cio-career-bottom-pad-medium{
-  padding-bottom: 2.5rem;
-}
-.teamName-top-pad{
-  padding-top: 1.5rem;
-}
-.meet-our-team {
-  margin-left: -15px;
-  margin-right: -15px;
-  background-image: url("../img/Team-background-Mobile.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  .cio-career-top-pad-medium {
+    padding-top: 2.5rem;
+  }
+
+  .cio-career-bottom-pad-medium {
+    padding-bottom: 2.5rem;
+  }
+
+  .teamName-top-pad {
+    padding-top: 1.5rem;
+  }
+
+  .meet-our-team {
+    margin-left: -15px;
+    margin-right: -15px;
+    background-image: url("../img/Team-background-Mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* show 3 lines */
+  .imitate_ellipsis {
+    position: relative;
+    line-height: 1.625em;
+    height: 4.875em;
+    overflow: hidden;
+  }
+
+  .imitate_ellipsis::after {
+    content: "...";
+    position: absolute;
+  }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1669px) {
-  .become-part-of>.all-in-small-center-in-big{
+  .become-part-of>.all-in-small-center-in-big {
     width: 100% !important;
     padding: 0px !important;
   }
@@ -63,33 +81,50 @@
     margin-right: 0 !important;
     margin-left: 0 !important;
     list-style: none;
-}
+  }
 
-.task-card {
-  padding: 1.5rem;
-  background-color: #fff;
-  height: 16.875rem;
-}
-.cio-career-top-pad-medium{
-  padding-top: 5rem;
-}
-.cio-career-bottom-pad-medium{
-  padding-bottom: 5rem;
-}
-.teamName-top-pad{
-  padding-top: 1rem;
-}
-.meet-our-team {
-  margin-left: -15px;
-  margin-right: -15px;
-  background-image: url("../img/Team-background-Web.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  .task-card {
+    padding: 1.5rem;
+    background-color: #fff;
+    height: 16.875rem;
+  }
+
+  .cio-career-top-pad-medium {
+    padding-top: 5rem;
+  }
+
+  .cio-career-bottom-pad-medium {
+    padding-bottom: 5rem;
+  }
+
+  .teamName-top-pad {
+    padding-top: 1rem;
+  }
+
+  .meet-our-team {
+    margin-left: -15px;
+    margin-right: -15px;
+    background-image: url("../img/Team-background-Web.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* show 2 lines */
+  .imitate_ellipsis {
+    position: relative;
+    line-height: 1.625em;
+    height: 3.25em;
+    overflow: hidden;
+  }
+
+  .imitate_ellipsis::after {
+    content: "...";
+    position: absolute;
+  }
 }
 
 @media screen and (min-width: 1670px) and (max-width:1680px) {
-  .become-part-of>.all-in-small-center-in-big{
+  .become-part-of>.all-in-small-center-in-big {
     width: 100% !important;
     padding: 0px !important;
   }
@@ -110,32 +145,51 @@
     margin-right: 0 !important;
     margin-left: 0 !important;
     list-style: none;
+  }
+
+  .task-card {
+    padding: 2.4375rem 1.5rem 1rem;
+    background-color: #fff;
+    height: 16.875rem;
+  }
+
+  .cio-career-top-pad-medium {
+    padding-top: 5rem;
+  }
+
+  .cio-career-bottom-pad-medium {
+    padding-bottom: 5rem;
+  }
+
+  .teamName-top-pad {
+    padding-top: 1rem;
+  }
+
+  .meet-our-team {
+    margin-left: -15px;
+    margin-right: -15px;
+    background-image: url("../img/Team-background-Web.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* show 2 lines */
+  .imitate_ellipsis {
+    position: relative;
+    line-height: 1.625em;
+    height: 3.25em;
+    overflow: hidden;
+  }
+
+  .imitate_ellipsis::after {
+    content: "...";
+    position: absolute;
+  }
+
 }
 
-.task-card {
-  padding: 2.4375rem 1.5rem 1rem;
-  background-color: #fff;
-  height: 16.875rem;
-}
-.cio-career-top-pad-medium{
-  padding-top: 5rem;
-}
-.cio-career-bottom-pad-medium{
-  padding-bottom: 5rem;
-}
-.teamName-top-pad{
-  padding-top: 1rem;
-}
-.meet-our-team {
-  margin-left: -15px;
-  margin-right: -15px;
-  background-image: url("../img/Team-background-Web.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-  
-}
-ol>li::before, ul>li::before {
+ol>li::before,
+ul>li::before {
   display: none !important;
 }
 
@@ -143,62 +197,138 @@ ol>li::before, ul>li::before {
   color: #8A3FFC;
 }
 
-.emailImg{
+.emailImg {
   background-image: url("../img/icon-Email.png");
   background-size: 36px 36px;
 }
 
-.emailImg:hover{
+.emailImg:hover {
   background-image: url("../img/icon-Email(hover).png");
   background-size: 36px 36px;
 }
-.inImg{
+
+.inImg {
   background-image: url("../img/icon-Linkedin.png");
   background-size: 36px 36px;
 }
 
-.inImg:hover{
+.inImg:hover {
   background-image: url("../img/icon-Linkedin(hover).png");
   background-size: 36px 36px;
 }
-.wechatImg{
+
+.wechatImg {
   background-image: url("../img/icon-WeChat.png");
   background-size: 36px 36px;
 }
 
-.wechatImg:hover{
+.wechatImg:hover {
   background-image: url("../img/icon-WeChat(hover).png");
   background-size: 36px 36px;
 }
-.contactImg{
-  height:36px;
-  width:36px;
+
+.contactImg {
+  height: 36px;
+  width: 36px;
   display: inline-block;
 }
-.normal-icon{
-  height:45px;
-  width:45px;
+
+.normal-icon {
+  height: 45px;
+  width: 45px;
 }
 
 .ibm-background-color {
   background-color: #f4f4f4 !important;
 }
 
-.ibm-columns{
+.ibm-columns {
   padding: 0 16px !important;
 }
 
-.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
-  padding-right: 0px !important; 
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+  padding-right: 0px !important;
   padding-left: 0px !important;
 }
-.row{
+
+.row {
   margin-right: 0px !important;
   margin-left: 0px !important;
 }
-.xs-pad{
+
+.xs-pad {
   padding-bottom: 8px !important;
 }
+
 /* .cover-title p {
   font-size: 1.2rem;
 }
@@ -263,7 +393,7 @@ ol>li::before, ul>li::before {
 
 
 
-.meet-our-team ol{
+.meet-our-team ol {
   padding: 0px;
 }
 
@@ -276,23 +406,24 @@ ol>li::before, ul>li::before {
   margin-bottom: 0;
 }
 
-.job-opportunity{
+.job-opportunity {
   padding: 0px !important;
 }
 
-.industryHireLeft{
-  float: left; 
+.industryHireLeft {
+  float: left;
   width: 10px;
   position: relative;
 }
-.industryHireRight{
+
+.industryHireRight {
   float: right;
   width: 100%;
   margin-left: -100px;
 }
 
 
-.ellipsis-6{
+.ellipsis-6 {
   display: -webkit-box;
   overflow: hidden;
   white-space: normal;
@@ -302,7 +433,7 @@ ol>li::before, ul>li::before {
   -webkit-box-orient: vertical;
 }
 
-.ellipsis-2{
+.ellipsis-2 {
   display: -webkit-box;
   overflow: hidden;
   white-space: normal;
@@ -312,7 +443,7 @@ ol>li::before, ul>li::before {
   -webkit-box-orient: vertical;
 }
 
-.ellipsis-3{
+.ellipsis-3 {
   display: -webkit-box;
   overflow: hidden;
   white-space: normal;
@@ -322,6 +453,6 @@ ol>li::before, ul>li::before {
   -webkit-box-orient: vertical;
 }
 
-.font-weight-600{
+.font-weight-600 {
   font-weight: 600;
 }
