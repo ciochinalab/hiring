@@ -157,7 +157,7 @@ $(function () {
         <div class="col-sm-11 col-md-10 col-lg-10" style="overflow:hidden;position:relative">
         <div class="job-card-content">
           <p class="cio-career-h2 xs-pad">${job.position}</p>
-          <p class="xs-pad">
+          <p class="xs-pad subtitle-job-card">
               <span>${job.location}</span> |
               <span>${job.level}</span> |
               <span>${job.experience}</span>
@@ -193,7 +193,7 @@ $(function () {
               <div class="industryHireRight style="overflow:hidden">
               <div style="position:relative" class="job-card-content">
               <p class="cio-career-h2">${job.position}</p>
-                <p>
+                <p class="subtitle-job-card">
                   <span>${job.location}</span> |
                   <span>${job.level}</span> |
                   <span>${job.experience}</span>
