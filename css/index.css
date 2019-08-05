@@ -193,6 +193,10 @@ ul>li::before {
   display: none !important;
 }
 
+ol>li{
+  padding-top: 5px !important;
+}
+
 .careerPurple {
   color: #8A3FFC;
 }
