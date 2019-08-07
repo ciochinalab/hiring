@@ -207,6 +207,7 @@ ul>li::before {
 
 ol>li{
   padding-top: 0px !important;
+  padding-left: 0px !important;
 }
 
 .careerPurple {
@@ -332,14 +333,7 @@ ol>li{
 }
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-  border-color: transparent !important;
-}
-
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: #373D42 !important;
-  font-weight: 600;
-  background-color: #f4f4f4 !important;
-  border-color:#f4f4f4 #f4f4f4 #8A3FFC #f4f4f4 !important;
+  border-color: transparent transparent #DCDCDC transparent !important;
 }
 
 .nav-tabs {
@@ -350,9 +344,21 @@ ol>li{
 }
 
 .nav-tabs .nav-link {
-  border: 2px solid transparent;
+  /* border: 2px solid transparent; */
+  border-bottom: 2px solid #DCDCDC;
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #373D42 !important;
+  font-weight: 600;
+  background-color: #f4f4f4 !important;
+  border-color:#f4f4f4 #f4f4f4 #8A3FFC #f4f4f4 !important;
+}
+
+.carousel-indicators li{
+  opacity: .2;
 }
 
 a:focus {
@@ -415,7 +421,6 @@ a:focus {
 .become-part-of .carousel .carousel-indicators li {
   background-color: #000;
 }
-
 .subtitle-job-card{
   color: #777677;
 }
@@ -488,4 +493,8 @@ a:focus {
 
 .font-weight-600 {
   font-weight: 600;
+}
+
+.view-more{
+  color: #8A3FFC;
 }

@@ -136,6 +136,10 @@ $(function () {
     return results[1];
   }
 
+  var mobileJobOppType = new Map();
+  mobileJobOppType.set('Developer', '#996BFA');
+  mobileJobOppType.set('Manager', '#C874D9');
+  mobileJobOppType.set('BA', '#526CE0');
 
   function generateJobOpp() {
     hireTab.forEach((item, index) => {
@@ -186,29 +190,24 @@ $(function () {
         } else {
           jobs[hireTab[j]].forEach((job, index) => {
             $('#' + hireTab[j]).append(`
-            <div class="job-card">
-              <div class="industryHireImg industryHireLeft">
-               <img src="img/Card-icon-${job.type}-Mobile.png" style="height:100%">
-              </div>
-              <div class="industryHireRight" style="overflow:hidden">
-              <div style="position:relative" class="job-card-content">
-              <p class="cio-career-h2">${job.position}</p>
+            <div class="job-card" style="overflow:hidden;border-left: 6px solid ${mobileJobOppType.get(job.type)}">
+               <div class="job-card-content">
+                <p class="cio-career-h2">${job.position}</p>
                 <p class="subtitle-job-card">
-                  <span>${job.location}</span> |
-                  <span>${job.level}</span> |
-                  <span>${job.experience}</span>
+                    <span>${job.location}</span> |
+                    <span>${job.level}</span> |
+                    <span>${job.experience}</span>
                 </p>
                 <p class="ellipsis-3 imitate_ellipsis">
-                ${job.requirements.map((requirement,index) => `
-                <span>${requirement}</span>
-              `).join('')}
+                    ${job.requirements.map((requirement,index) => `
+                    <span>${requirement}</span>
+                    `).join('')}
                 </p>
-                <p style="position:absolute;bottom:25px;">
-                  <a class="view-more" href="details.html?category=${hireTab[j]}&index=${index}">View More -></a>
+                <p style="padding-top:20px">
+                    <a class="view-more" href="details.html?category=${hireTab[j]}&index=${index}">View More -></a>
                 </p>
-                </div>
-              </div>
-            </div>
+               </div>
+             </div>
         `);
           });
         }
