@@ -95,7 +95,7 @@ $(function () {
       <div class="col-sm-12 col-md-${cardWidth} col-lg-${cardWidth}">
       <div class="team-card-pad">
         <div class="task-card" style="overflow:hidden">
-          <img src="img/${team.icon}.png" align="top" style="height:2.875rem">
+          <img src="img/${team.icon}.png" align="top" style="height:3.75rem">
           <p class="ibm-bold teamName-top-pad" style="padding-bottom:5px">${team.teamName}</p>
           <p>${team.teamDetail}
         </p>
