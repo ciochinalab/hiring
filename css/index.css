@@ -59,6 +59,10 @@
     position: absolute;
   }
 
+  #agile {
+    width: 11.25rem;
+  }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1669px) {
@@ -120,6 +124,10 @@
   .imitate_ellipsis::after {
     content: "...";
     position: absolute;
+  }
+
+  #agile {
+    width: 19.6875rem;
   }
 }
 
@@ -184,6 +192,10 @@
   .imitate_ellipsis::after {
     content: "...";
     position: absolute;
+  }
+
+  #agile {
+    width: 19.6875rem;
   }
 
 }
@@ -352,10 +364,6 @@ ol>li{
 
 .focused-areas .icon-col {
   flex: 0 0 100px;
-}
-
-#agile {
-  width: 315px;
 }
 
 .become-part-of .col-sm:first-child {
