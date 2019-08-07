@@ -190,7 +190,7 @@ $(function () {
               <div class="industryHireImg industryHireLeft">
                <img src="img/Card-icon-${job.type}-Mobile.png" style="height:100%">
               </div>
-              <div class="industryHireRight style="overflow:hidden">
+              <div class="industryHireRight" style="overflow:hidden">
               <div style="position:relative" class="job-card-content">
               <p class="cio-career-h2">${job.position}</p>
                 <p class="subtitle-job-card">
