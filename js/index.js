@@ -150,7 +150,7 @@ $(function () {
         // initialize job opportunities
         if (jobs[hireTab[j]].length === 0) {
           $('#' + hireTab[j]).append(`
-          <p style="padding-left:16px;margin-top: 1rem;">No jobs available yet</p>`)
+          <p style="padding-left:16px;margin-top: 1rem;">No job available.</p>`)
         } else {
           jobs[hireTab[j]].forEach((job, index) => {
             $('#' + hireTab[j]).append(`
@@ -186,7 +186,7 @@ $(function () {
         // initialize job opportunities
         if (jobs[hireTab[j]].length === 0) {
           $('#' + hireTab[j]).append(`
-          <p style="padding-left:16px;margin-top: 1rem;">No jobs available yet</p>`)
+          <p style="padding-left:16px;margin-top: 1rem;">No job available.</p>`)
         } else {
           jobs[hireTab[j]].forEach((job, index) => {
             $('#' + hireTab[j]).append(`
