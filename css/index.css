@@ -5,6 +5,7 @@
   }
 
   #carouselBecomePartOf .carousel-indicators {
+    padding: 0 0 2rem !important;
     position: absolute;
     right: auto !important;
     bottom: 0;
@@ -72,6 +73,7 @@
   }
 
   #carouselBecomePartOf .carousel-indicators {
+    padding: 0 0 4rem !important;
     position: absolute;
     right: auto !important;
     bottom: 0;
@@ -140,6 +142,7 @@
 
 @media screen and (min-width: 1670px) {
   #carouselBecomePartOf .carousel-indicators {
+    padding: 0 0 4rem !important;
     position: absolute;
     right: auto !important;
     bottom: 0;
