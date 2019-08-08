@@ -63,6 +63,9 @@
   #agile {
     width: 70%;
   }
+  .growing-with-us-img{
+  width: 70%;
+  }
 
 }
 
@@ -130,6 +133,9 @@
 
   #agile {
     width: 19.6875rem;
+  }
+  .growing-with-us-img{
+    width: 90%;
   }
 }
 
@@ -199,6 +205,10 @@
 
   #agile {
     width: 19.6875rem;
+  }
+
+  .growing-with-us-img{
+    width: 90%;
   }
 
 }
