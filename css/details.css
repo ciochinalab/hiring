@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cio-jd-padding-big {
     padding-top: 3.75rem !important;
     padding-bottom: 3.75rem !important;
@@ -12,7 +12,8 @@
   }
 
   .job-details {
-    padding: 5rem 1rem;
+     padding-top: 4rem;
+     padding-bottom: 4rem;
   }
 
   .detail-title-pad {
@@ -23,8 +24,33 @@
     padding-top: 1rem;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1240px) {
+  .cio-jd-padding-big {
+    padding-top: 7.5rem !important;
+    padding-bottom: 7.5rem !important;
+  }
 
-@media screen and (min-width: 768px) {
+  .position {
+    background-image: url("../img/JD-banner-Web.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F4F4F4;
+  }
+
+   .job-details {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  } 
+
+  .detail-title-pad {
+    padding-top: 4rem;
+    padding-bottom: 1.5rem !important;
+  }
+  .job-info-top-pad{
+    padding-top: 2rem;
+  }
+}
+@media screen and (min-width: 1240px) {
   .cio-jd-padding-big {
     padding-top: 7.5rem !important;
     padding-bottom: 7.5rem !important;

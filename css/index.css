@@ -68,6 +68,11 @@
   }
 
 }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .growing-with-us-img{
+    width: 70% !important
+    }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1669px) {
   .become-part-of>.all-in-small-center-in-big {
