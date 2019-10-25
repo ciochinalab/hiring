@@ -236,7 +236,7 @@ $(function () {
                     `).join('')}
                 </p>
                 <p style="padding-top:20px">
-                    <a class="view-more" href="details.html?category=${hireTab[j]}&index=${index}">View More -></a>
+                    <a class="view-more" href="?category=${hireTab[j]}&index=${index}">View More -></a>
                 </p>
                </div>
              </div>
