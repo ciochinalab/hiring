@@ -29,7 +29,7 @@ $(function () {
       `);
 
   } else {
-    $("#detailPage").css("display","hidden");
+    $("#detailPage").css("display","none");
     $("#hiringPage").css("display","block");
     //Job Opportunities Tab
     var tabNeedToShow = 'experienceHire';
