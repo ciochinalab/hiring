@@ -516,3 +516,9 @@ a:focus {
 .view-more{
   color: #8A3FFC;
 }
+
+.btn-purple{
+  background-color:#8A3FFC !important;
+  border-color:#8A3FFC !important;
+  outline-color:#8A3FFC !important;
+}
