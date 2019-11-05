@@ -257,25 +257,29 @@ function showJobDetail(selectedHireTab, index) {
         </p>
       </div>
       `);
-  $(".job-details").replaceWith(`
-    <div class="job-details">
-      <p>${job.description}</p>
-      <p class="cio-career-h2 detail-title-pad">Responsibilities:</p>
-      ${job.responsibilities.map((responsibility,index) => `
-        <p>${index+1}. ${responsibility}</p>
-      `).join('')}
-      <p class="cio-career-h2 detail-title-pad">Requirements:</p>
-      ${job.requirements.map((requirement,index) => `
-        <p>${index+1}. ${requirement}</p>
-      `).join('')}
-      <p class="cio-career-h2 detail-title-pad">How to Apply:</p>
-      ${job.applications.map((application,index) => `
-        <p>${application}</p>
-      `).join('')}
-      <p class="detail-title-pad"></p>
+  let jobDetails = `
+  <div class="job-details">
+    <p>${job.description}</p>`
+  if (job.responsibilities) {
+    jobDetails = jobDetails + ` <p class="cio-career-h2 detail-title-pad">Responsibilities:</p>
+    ${job.responsibilities.map((responsibility,index) => `
+      <p>${index+1}. ${responsibility}</p>
+    `).join('')}`
+  }
+  jobDetails = jobDetails + `<p class="cio-career-h2 detail-title-pad">Requirements:</p>
+    ${job.requirements.map((requirement,index) => `
+      <p>${index+1}. ${requirement}</p>
+    `).join('')}`
+  if (job.applications) {
+    jobDetails = jobDetails + `<p class="cio-career-h2 detail-title-pad">How to Apply:</p>
+    ${job.applications.map((application,index) => `
+      <p>${application}</p>
+    `).join('')}`
+  }
+  jobDetails = jobDetails + ` <p class="detail-title-pad"></p>
       <button class="ibm-btn-pri btn-purple" type="button" onclick="showHiring()">Back</button>
-    </div>
-    `);
+  </div>`
+  $(".job-details").replaceWith(jobDetails)
 }
 
 function showHiring() {
