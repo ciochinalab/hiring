@@ -8,6 +8,7 @@ $(function () {
   $("#becomePartOfImg").append(`<img src="img/BecomePartOf${Math.ceil(Math.random()*2)}.jpg" class="becomePartOfCardImg">`)
   $("#workInImg").append(`<img src="img/Workin${Math.ceil(Math.random()*3)}.jpg" class="becomePartOfCardImg">`)
   $("#benefitFromImg").append(`<img src="img/BenifitFrom${Math.ceil(Math.random()*2)}.jpg" class="becomePartOfCardImg">`)
+  $(".addBannerPic").addClass(`cover-title${Math.ceil(Math.random()*2)}`)
 
 
   // initialize the wechat popover

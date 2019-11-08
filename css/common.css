@@ -58,8 +58,15 @@
     padding-bottom: 5rem;
   }
 
-  .cover-title {
-    background-image: url("../img/Banner-Mobile.png");
+  .cover-title1 {
+    background-image: url("../img/BannerMobile1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+
+  .cover-title2 {
+    background-image: url("../img/BannerMobile2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
@@ -185,8 +192,15 @@
     padding-bottom: 8rem;
   }
 
-  .cover-title {
-    background-image: url("../img/Banner-Web.png");
+  .cover-title1 {
+    background-image: url("../img/BannerWeb1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+
+  .cover-title2 {
+    background-image: url("../img/BannerWeb2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
@@ -310,8 +324,15 @@
     padding-bottom: 8rem;
   }
 
-  .cover-title {
-    background-image: url("../img/Banner-Web.png");
+  .cover-title1 {
+    background-image: url("../img/BannerWeb1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+
+  .cover-title2 {
+    background-image: url("../img/BannerWeb2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
