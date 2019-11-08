@@ -2,8 +2,8 @@ $(function () {
   $("#detailPage").css("display", "none");
   $("#hiringPage").css("display", "block");
   //Job Opportunities Tab
-  var tabNeedToShow = 'experienceHire';
-  var hireTab = ['experienceHire', 'campusHire', 'internship']
+  var tabNeedToShow = 'experiencedHire';
+  var hireTab = ['experiencedHire', 'campusHire', 'internship']
 
   $("#becomePartOfImg").append(`<img src="img/BecomePartOf${Math.ceil(Math.random()*2)}.jpg" class="becomePartOfCardImg">`)
   $("#workInImg").append(`<img src="img/Workin${Math.ceil(Math.random()*3)}.jpg" class="becomePartOfCardImg">`)

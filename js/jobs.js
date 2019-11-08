@@ -1,5 +1,5 @@
 const jobs = {
-  "experienceHire": [
+  "experiencedHire": [
     {
       "position": "Software Developer",
       "location": "Dalian",
