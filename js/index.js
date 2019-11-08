@@ -5,6 +5,11 @@ $(function () {
   var tabNeedToShow = 'experienceHire';
   var hireTab = ['experienceHire', 'campusHire', 'internship']
 
+  $("#becomePartOfImg").append(`<img src="img/BecomePartOf${Math.ceil(Math.random()*2)}.jpg" class="becomePartOfCardImg">`)
+  $("#workInImg").append(`<img src="img/Workin${Math.ceil(Math.random()*3)}.jpg" class="becomePartOfCardImg">`)
+  $("#benefitFromImg").append(`<img src="img/BenifitFrom${Math.ceil(Math.random()*2)}.jpg" class="becomePartOfCardImg">`)
+
+
   // initialize the wechat popover
   $("#wechat-link").popover({
     trigger: "hover",
