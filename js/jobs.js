@@ -73,7 +73,7 @@ const jobs = {
         "Strong skills of SQL and ETL, at least 3 years develop experience in ETL related projects;",
         "Good knowledge of database and data warehouse, at least mastering one database, e.g. DB2 or Oracle;",
         "Have rich experiences in business analysis, trouble shootings and performance tuning for data area;",
-        "At least familiar with one of object oriented program languages, e.g. Java, Scala, C++;",
+        "At least familiar with one of object oriented programming languages, e.g. Java, Scala, C++;",
         "Good knowledge in Unix/Linux SHELL script programming;",
         "Fluent in English and strong communication skills;",
         "Experience with IBM DataStage is a strong plus;",
