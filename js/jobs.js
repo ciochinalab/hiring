@@ -57,31 +57,6 @@ const jobs = {
       ],
       "applications": ['Send your resume to yngying@cn.ibm.com', 'Prefix the email title with "Position".']
     },
-    {
-      "position": "Marketing Data Developer",
-      "location": "BEIJING",
-      "level": "BAND7-8",
-      "experience": "3+ YEARS",
-      "type": "Developer",
-      "responsibilities": [
-        "Design logic and physical data model based on business requirements;",
-        "Analyze the source data, design and develop ETL Jobs to integrate the data;",
-        "Be responsible for database and ETL job performance tuning;",
-        "Provide technical support for L2 Operation team. Ensure the accuracy and timeliness of daily data integration."
-      ],
-      "requirements": [
-        "Strong skills of SQL and ETL, at least 3 years develop experience in ETL related projects;",
-        "Good knowledge of database and data warehouse, at least mastering one database, e.g. DB2 or Oracle;",
-        "Have rich experiences in business analysis, trouble shootings and performance tuning for data area;",
-        "At lease familiar with one of object oriented program languages, e.g. Java, Scala, C++;",
-        "Good knowledge in Unix/Linux SHELL script programming;",
-        "Fluent in English and strong communication skills;",
-        "Experience with IBM DataStage is a strong plus;",
-        "Familiar with Big Data technologies and experience with data integration using Spark/Kafka is a plus." 
-
-      ],
-      "applications": ['Send your resume to yngying@cn.ibm.com', 'Prefix the email title with "Position".']
-    },
       {
       "position": "Application Architect",
       "location": "BEIJING",
