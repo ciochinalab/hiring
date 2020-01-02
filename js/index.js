@@ -263,9 +263,11 @@ function showJobDetail(selectedHireTab, index) {
         </p>
       </div>
       `);
-  let jobDetails = `
-  <div class="job-details">
-    <p>${job.description}</p>`
+  let jobDetails = `<div class="job-details">`
+  if (job.description) {
+    jobDetails = jobDetails + `
+      <p>${job.description}</p>`
+  }
   if (job.responsibilities) {
     jobDetails = jobDetails + ` <p class="cio-career-h2 detail-title-pad">Responsibilities:</p>
     ${job.responsibilities.map((responsibility,index) => `
